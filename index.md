@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+# Home page
+
+My Home Page here
