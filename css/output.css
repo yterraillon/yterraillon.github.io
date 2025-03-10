@@ -6,6 +6,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-sky-200: oklch(0.901 0.058 230.902);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --font-weight-bold: 700;
@@ -185,6 +186,9 @@
   }
   .mx-auto {
     margin-inline: auto;
+  }
+  .bg-sky-200 {
+    background-color: var(--color-sky-200);
   }
   .text-3xl {
     font-size: var(--text-3xl);
