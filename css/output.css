@@ -412,7 +412,7 @@
   }
 }
 .hero-background {
-  background-image: url('../assets/images/the-coding-nook/hero.jpg');
+  background-image: url('../cdn/the-coding-nook/images/hero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
