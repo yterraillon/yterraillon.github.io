@@ -8,12 +8,9 @@
       "Courier New", monospace;
     --color-sky-100: oklch(0.951 0.026 236.824);
     --color-sky-200: oklch(0.901 0.058 230.902);
-    --color-sky-300: oklch(0.828 0.111 230.318);
     --color-sky-400: oklch(0.746 0.16 232.661);
     --color-sky-600: oklch(0.588 0.158 241.966);
-    --color-sky-700: oklch(0.5 0.134 242.749);
     --color-sky-900: oklch(0.391 0.09 240.876);
-    --color-blue-950: oklch(0.282 0.091 267.935);
     --color-slate-700: oklch(0.372 0.044 257.287);
     --color-slate-900: oklch(0.208 0.042 265.755);
     --color-white: #fff;
@@ -237,10 +234,6 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .rounded-t-xl {
-    border-top-left-radius: var(--radius-xl);
-    border-top-right-radius: var(--radius-xl);
-  }
   .bg-sky-200 {
     background-color: var(--color-sky-200);
   }
@@ -293,23 +286,11 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
-  .text-blue-950 {
-    color: var(--color-blue-950);
-  }
   .text-sky-100 {
     color: var(--color-sky-100);
   }
-  .text-sky-200 {
-    color: var(--color-sky-200);
-  }
-  .text-sky-300 {
-    color: var(--color-sky-300);
-  }
   .text-sky-400 {
     color: var(--color-sky-400);
-  }
-  .text-sky-700 {
-    color: var(--color-sky-700);
   }
   .text-sky-900 {
     color: var(--color-sky-900);
@@ -321,10 +302,6 @@
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .shadow-md {
-    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -334,20 +311,6 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-sky-200);
-      }
-    }
-  }
-  .hover\:text-sky-200 {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-sky-200);
-      }
-    }
-  }
-  .hover\:text-sky-400 {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-sky-400);
       }
     }
   }
@@ -412,7 +375,7 @@
   }
 }
 .hero-background {
-  background-image: url('../cdn/the-coding-nook/images/hero.jpg');
+  background-image: url('../../cdn/the-coding-nook/images/hero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
