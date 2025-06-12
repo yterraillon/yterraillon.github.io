@@ -1,38 +1,30 @@
 {
-  "title": "R\u00E9cap du 11 juin",
+  "title": "R\u00E9cap du 12 juin",
   "sections": [
     {
+      "title": "International",
+      "text": "- Un crash tragique d\u0027un Boeing 787 en Inde a caus\u00E9 la mort de tous les passagers \u00E0 bord, bien que des rapports sugg\u00E8rent qu\u0027un passager aurait miraculeusement surv\u00E9cu. L\u0027Inde est sous le choc alors que les images impressionnantes de l\u0027accident circulent.\n- En Ukraine, Kiev exprime son d\u00E9sir de mettre fin \u00E0 la guerre avec Moscou d\u0027ici la fin de l\u0027ann\u00E9e.\n- Aux \u00C9tats-Unis, des \u00E9meutes ont \u00E9clat\u00E9 en r\u00E9action \u00E0 la politique anti-immigration de Trump, notamment en Californie.\n- En Isra\u00EBl, l\u0027eurod\u00E9put\u00E9e Rima Hassan et d\u0027autres militants sont en cours d\u0027expulsion, tandis que des discussions sur la reconnaissance d\u0027un \u00C9tat palestinien se poursuivent."
+    },
+    {
       "title": "Politique",
-      "text": "- Emmanuel Macron a abord\u00E9 des sujets tels que l\u0027\u00E9cologie, le chalutage, et la marque Shein lors de son intervention sur France 2.\n- Le Rassemblement National cherche \u00E0 rassurer les milieux \u00E9conomiques avec sa \u00AB r\u00E8gle d\u2019or \u00BB budg\u00E9taire avant la pr\u00E9sidentielle.\n- Les Insoumis ont exprim\u00E9 leur indignation \u00E0 l\u0027Assembl\u00E9e concernant la d\u00E9tention de Rima Hassan en Isra\u00EBl.\n- La fronde des maires face aux mariages impliquant des clandestins se poursuit."
+      "text": "- En France, le meurtre d\u0027une surveillante \u00E0 Nogent suscite une vive \u00E9motion et des d\u00E9bats sur la violence chez les jeunes. Le pr\u00E9sident Macron a exprim\u00E9 sa pr\u00E9occupation face \u00E0 cette \u0022d\u00E9sinhibition de la violence\u0022.\n- La France est soup\u00E7onn\u00E9e de livrer des armes \u00E0 Isra\u00EBl, mais un document d\u00E9classifi\u00E9 vise \u00E0 prouver le contraire.\n- Lev Chlosberg, un opposant russe \u00E0 Vladimir Poutine, a \u00E9t\u00E9 arr\u00EAt\u00E9 en Russie."
     },
     {
       "title": "\u00C9conomie",
-      "text": "- Donald Trump a annonc\u00E9 un accord commercial avec la Chine concernant l\u0027approvisionnement en terres rares.\n- Trump a \u00E9galement obtenu une victoire temporaire sur les droits de douane gr\u00E2ce \u00E0 la justice.\n- Les taxis manifestent \u00E0 Bercy et appellent \u00E0 bloquer les a\u00E9roports parisiens.\n- Un concessionnaire autoroutier propose de baisser le prix des p\u00E9ages."
+      "text": "- Une \u00E9tude r\u00E9v\u00E8le une augmentation significative de la consommation de coca\u00EFne en entreprise.\n- Airbus fait face \u00E0 des retards de livraison d\u0027avions en raison d\u0027une p\u00E9nurie de moteurs et de toilettes.\n- Le gouvernement fran\u00E7ais d\u00E9voile un nouveau plan sur la sant\u00E9 mentale, critiqu\u00E9 comme \u00E9tant insuffisant par certains."
     },
     {
       "title": "Technologie",
-      "text": "- Nintendo a vendu 3,5 millions de consoles Switch 2 en quatre jours, \u00E9tablissant un nouveau record.\n- Les IA g\u00E9n\u00E9ratives expriment leur lassitude face \u00E0 leur utilisation excessive."
-    },
-    {
-      "title": "International",
-      "text": "- La Finlande soup\u00E7onne un avion militaire russe d\u0027avoir viol\u00E9 son espace a\u00E9rien dans le cadre de la guerre en Ukraine.\n- Aux \u00C9tats-Unis, des \u00E9meutes ont \u00E9clat\u00E9 contre la politique anti-immigration de Donald Trump.\n- Gavin Newsom, gouverneur de Californie, s\u0027oppose fermement \u00E0 Donald Trump.\n- En Afrique du Sud, des inondations ont caus\u00E9 la mort de 49 personnes."
+      "text": "- \u00C0 VivaTech, Emmanuel Macron applaudit le partenariat entre Mistral AI et Nvidia, soulignant l\u0027importance croissante de l\u0027intelligence artificielle en France."
     },
     {
       "title": "Soci\u00E9t\u00E9",
-      "text": "- Une minute de silence sera observ\u00E9e dans toutes les \u00E9coles jeudi midi en hommage \u00E0 M\u00E9lanie, une surveillante poignard\u00E9e \u00E0 Nogent.\n- L\u0027affaire Estelle Mouzin revient sur le devant de la sc\u00E8ne avec l\u0027\u00C9tat attaqu\u00E9 pour faute lourde par le p\u00E8re de la fillette disparue.\n- La lib\u00E9ration de l\u0027assassin du juge Falcone suscite une vive \u00E9motion en Italie."
+      "text": "- Le retour du syst\u00E8me de consigne du verre est officiellement lanc\u00E9 dans plusieurs r\u00E9gions fran\u00E7aises.\n- Une affiche de LFI et des \u00C9tudiants musulmans de France est critiqu\u00E9e pour invisibiliser les femmes voil\u00E9es."
     },
     {
-      "title": "Justice",
-      "text": "- Mohamed Amra a \u00E9t\u00E9 extrait de sa prison en h\u00E9licopt\u00E8re pour une audition ultra-s\u00E9curis\u00E9e au tribunal de Paris, mais n\u0027a pas r\u00E9pondu aux questions sur son \u00E9vasion.\n- Le meurtre d\u0027une surveillante \u00E0 Nogent soul\u00E8ve des questions sur la s\u00E9curit\u00E9 dans les \u00E9tablissements scolaires fran\u00E7ais."
-    },
-    {
-      "title": "Culture et Divertissement",
-      "text": "- Marseille lance sa premi\u00E8re Slow Fashion Week pour promouvoir une mode plus \u00E9thique et durable.\n- Des personnalit\u00E9s comme Aure Atika et Clovis Cornillac participent au film \u00AB Vacances forc\u00E9es \u00BB."
-    },
-    {
-      "title": "Environnement",
-      "text": "- Quatre d\u00E9partements du Sud-Ouest sont plac\u00E9s en vigilance orange aux orages ce mercredi.\n- Une vague de chaleur avec des temp\u00E9ratures atteignant jusqu\u0027\u00E0 37 \u00B0C s\u0027abat sur le Sud-Ouest de la France."
+      "title": "Culture",
+      "text": "- L\u0027exposition \u0022Le myst\u00E8re Cl\u00E9op\u00E2tre\u0022 \u00E0 l\u0027Institut du Monde arabe vise \u00E0 corriger les fausses informations sur la reine d\u0027\u00C9gypte.\n- La s\u00E9rie anim\u00E9e \u0022Stranger Things\u0022 continue d\u0027attirer l\u0027attention avec des extraits tr\u00E8s appr\u00E9ci\u00E9s."
     }
   ],
-  "createdAt": "2025-06-11T15:00:35.787083Z"
+  "createdAt": "2025-06-12T15:00:24.6484687Z"
 }
