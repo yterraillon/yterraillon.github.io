@@ -1,43 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Coding Nook</title>
+    <title>YT Code</title>
     <link href="./app/css/output.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f8fafc;
+            color: #222;
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .centered {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+        }
+        .app-list {
+            margin: 2rem 0 3rem 0;
+            padding: 0;
+            list-style: none;
+            max-width: 400px;
+            width: 100%;
+        }
+        .app-item {
+            background: #fff;
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            padding: 2rem 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: left;
+            border: 1px solid transparent;
+        }
+        .app-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            color: #888;
+            font-size: 0.95rem;
+            margin-top: 2rem;
+            padding: 2rem 0 1rem 0;
+        }
+        .footer a {
+            color: #888;
+            text-decoration: underline;
+            margin: 0 0.7em;
+        }
+        .footer a:hover {
+            color: #222;
+        }
+        .app-item:hover {
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08), 0 0 0 1px #2563eb;
+            border: 1px solid #2563eb;
+            transition: box-shadow 0.18s, border 0.18s;
+        }
+    </style>
 </head>
 <body>
-<div class="bg-slate-700 text-sky-100 font-sans shadow full-height">
-    <section class="flex flex-col md:flex-row items-center justify-between p-6 md:p-12 bg-sky-200 hero-section hero-background">
-        <div class="text-center md:text-left md:max-w-xl">
-            <h2 class="text-3xl md:text-5xl font-bold mb-4 text-sky-100">The Coding Nook</h2>
-            <p class="text-lg md:text-xl text-sky-100">Sharing stuff I code</p>
+    <div class="centered">
+        <div style="display:flex; align-items:center; gap:1.2em; margin-bottom:0.7em;">
+            <h1 style="font-size:2.5rem; font-weight:800; margin:0;">YT Code</h1>
+            <img src="./cdn/the-coding-nook/images/logo.png" alt="Logo YT Code" style="height:48px; width:48px; border-radius:12px; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,0.07);" />
         </div>
-    </section>
-
-    <section class="p-6 md:p-12 content">
-        <h3 class="text-2xl font-semibold mb-6">Apps</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <a href="./pages/en-bref/index.html" class="block no-underline bg-white rounded-xl shadow p-6 hover:bg-sky-200 transition text-sky-900">
-                <div class="flex items-center gap-4">
-                    <img src="./cdn/the-coding-nook/images/news.png" alt="Thermo" class="w-10 h-10" />
+        <div style="font-size:1.2rem; color:#555; margin-bottom:2.5em;">Nous créons des apps utiles pour booster votre productivité.</div>
+        <ul class="app-list">
+            <a href="./pages/en-bref/index.html" style="text-decoration:none; color:inherit;">
+                <li class="app-item" style="display: flex; align-items: center; gap: 1.2em; cursor:pointer;">
+                    <img src="./cdn/en-bref/images/EnBrefLogo_Black_WhiteBG.png" alt="Logo En Bref" style="width:48px; height:48px; border-radius:12px; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,0.07);" />
                     <div>
-                        <h4 class="text-xl font-bold">En Bref</h4>
-                        <p class="text-sm mt-2">Le récap quotidien de l'actualité</p>
+                        <div class="app-title">En Bref</div>
+                        <div>Le récap quotidien des titres, simple et rapide à lire.</div>
                     </div>
-                </div>
+                </li>
             </a>
-        </div>
-    </section>
-
-    <footer class="p-4 md:p-6 bg-slate-900 flex flex-col md:flex-row justify-between items-center text-sm text-sky-400">
-        <span>&copy; 2025 the coding nook</span>
-        <div class="flex gap-4 mt-2 md:mt-0">
-            <a href="https://github.com/yterraillon" aria-label="GitHub" class="hover:text-sky-600">
-                <img src="./cdn/the-coding-nook/images/github.png" alt="GitHub" style="height: 28px;" />
-            </a>
-        </div>
-    </footer>
-</div>
+        </ul>
+    </div>
+    <div class="footer">
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Conditions d'utilisation</a>
+        <a href="#">Contact</a><br/>
+        <span>&copy; 2025 YT Code. Tous droits réservés.</span>
+    </div>
 </body>
 </html>
