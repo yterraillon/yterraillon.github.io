@@ -1,32 +1,67 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>En Bref</title>
     <link href="./styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Landing page pour En Bref, le récap quotidien de l'actualité.</h1>
+    <!-- Header -->
+    <header style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2.5rem;">
+        <div style="display: flex; align-items: center; gap: 1em;">
+            <img src="../../cdn/en-bref/images/EnBrefLogo_Black_WhiteBG.png" alt="Logo En Bref" style="width:48px; height:48px; border-radius:12px; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,0.07);">
+            <span style="font-size:2rem; font-weight:800;">En Bref</span>
+        </div>
+        <a href="#" class="no-underline bg-sky-200 rounded-xl p-4 text-sky-900 font-bold hover:bg-sky-400 transition" style="font-size:1.1rem;">Télécharger l'app</a>
+    </header>
 
-    <a href="./privacy-policy.html" class="block no-underline bg-white rounded-xl shadow p-6 hover:bg-sky-200 transition text-sky-900">
-        <p class="text-sm mt-2">Politique de confidentialité</p>
-    </a>
+    <!-- Section Description -->
+    <section style="margin-bottom:2.5rem;">
+        <h1 style="font-size:2.2rem; font-weight:700; margin-bottom:0.7em;">Le récap quotidien de l'actualité, sans perte de temps.</h1>
+        <p style="font-size:1.2rem; color:#444; max-width:600px;">Recevez chaque jour à 18h une sélection des titres essentiels de l’actualité, sans publicité, sans tracking, et dans le respect total de votre vie privée. <br>En Bref, c’est l’info utile, claire et rapide à lire, pensée pour les esprits curieux mais pressés.</p>
+    </section>
 
-    <a href="./app-tracking-policy.html" class="block no-underline bg-white rounded-xl shadow p-6 hover:bg-sky-200 transition text-sky-900">
-        <p class="text-sm mt-2">Politique de suivi</p>
-    </a>
+    <!-- Section Abonnement -->
+    <section style="margin-bottom:2.5rem;">
+        <h2 style="font-size:2rem; font-weight:700; text-align:center; margin-bottom:2em;">Tarifs</h2>
+        <div style="display: flex; flex-wrap: wrap; gap:2em; justify-content: center;">
+            <!-- Carte Gratuit -->
+            <div style="background:linear-gradient(135deg,#f8fafc 60%,#fff 100%); border-radius:1em; box-shadow:0 2px 8px rgba(0,0,0,0.04); padding:2em 2em; min-width:270px; max-width:340px; flex:1 1 270px;">
+                <div style="font-weight:700; font-size:1.5rem; margin-bottom:1em; color:#222;">Gratuit</div>
+                <ul style="color:#444; font-size:1.1rem; list-style:none; padding:0;">
+                    <li style="margin-bottom:1em; display:flex; align-items:center;"><span style="color:#38b2ac; font-size:1.2em; margin-right:0.6em;">✔️</span> Accès à la sélection quotidienne des titres</li>
+                    <li style="margin-bottom:1em; display:flex; align-items:center;"><span style="color:#38b2ac; font-size:1.2em; margin-right:0.6em;">✔️</span> Sans publicité, sans inscription</li>
+                    <li style="margin-bottom:1em; display:flex; align-items:center;"><span style="color:#38b2ac; font-size:1.2em; margin-right:0.6em;">✔️</span> Respect total de la vie privée</li>
+                    <li style="display:flex; align-items:center;"><span style="color:#38b2ac; font-size:1.2em; margin-right:0.6em;">✔️</span> Application 100% gratuite</li>
+                </ul>
+            </div>
+            <!-- Carte Premium -->
+            <div style="background:linear-gradient(135deg,#e0f2ff 60%,#f8fbff 100%); border-radius:1em; box-shadow:0 2px 8px rgba(0,0,0,0.04); padding:2em 2em; min-width:270px; max-width:340px; flex:1 1 270px;">
+                <div style="font-weight:700; font-size:1.5rem; margin-bottom:1em; color:#2563eb;">Premium</div>
+                <ul style="color:#2563eb; font-size:1.1rem; list-style:none; padding:0;">
+                    <li style="margin-bottom:1em; display:flex; align-items:center;"><span style="color:#2563eb; font-size:1.2em; margin-right:0.6em;">✔️</span> Accès illimité à l’historique</li>
+                    <li style="margin-bottom:1em; display:flex; align-items:center;"><span style="color:#2563eb; font-size:1.2em; margin-right:0.6em;">✔️</span> Alertes personnalisées</li>
+                    <li style="margin-bottom:1em; display:flex; align-items:center;"><span style="color:#2563eb; font-size:1.2em; margin-right:0.6em;">✔️</span> Fonctionnalités à venir</li>
+                </ul>
+                <div style="margin-top:2em;">
+                    <div style="font-size:1.1rem; color:#222; margin-bottom:0.5em;">Mensuel : <span style="font-size:1.5rem; font-weight:700; color:#222;">1,99&nbsp;€</span></div>
+                    <div style="font-size:1.1rem; color:#222; margin-bottom:0.5em;">Annuel : <span style="font-size:1.5rem; font-weight:700; color:#222;">14,99&nbsp;€</span></div>
+                    <div style="font-size:1.1rem; color:#222;">À vie : <span style="font-size:1.5rem; font-weight:700; color:#222;">39,99&nbsp;€</span> <span style="font-size:1rem; color:#888; text-decoration:line-through;">59,99&nbsp;€</span></div>
+                </div>
+                <div style="font-size:0.95rem; color:#888; margin-top:1.2em;">Prix TTC. Les tarifs peuvent varier selon la plateforme App Store.</div>
+            </div>
+        </div>
+    </section>
 
-    <a href="./about-us.html" class="block no-underline bg-white rounded-xl shadow p-6 hover:bg-sky-200 transition text-sky-900">
-        <p class="text-sm mt-2">À propos</p>
-    </a>
-
-    <a href="./legal-notice.html" class="block no-underline bg-white rounded-xl shadow p-6 hover:bg-sky-200 transition text-sky-900">
-        <p class="text-sm mt-2">Conditions générales d'utilisation</p>
-    </a>
-
-    <a href="./terms-of-use.html" class="block no-underline bg-white rounded-xl shadow p-6 hover:bg-sky-200 transition text-sky-900">
-        <p class="text-sm mt-2">Mentions légales</p>
-    </a>
-
+    <!-- Footer -->
+    <footer style="text-align:center; color:#888; font-size:0.95rem; margin-top:3rem; padding:2rem 0 1rem 0; border-top:1px solid #eee;">
+        <a href="./privacy-policy.html" style="color:#888; text-decoration:underline; margin:0 0.7em;">Politique de confidentialité</a>
+        <a href="./app-tracking-policy.html" style="color:#888; text-decoration:underline; margin:0 0.7em;">Politique de suivi</a>
+        <a href="./about-us.html" style="color:#888; text-decoration:underline; margin:0 0.7em;">À propos</a>
+        <a href="./legal-notice.html" style="color:#888; text-decoration:underline; margin:0 0.7em;">Conditions générales d'utilisation</a>
+        <a href="./terms-of-use.html" style="color:#888; text-decoration:underline; margin:0 0.7em;">Mentions légales</a><br/>
+        <span>&copy; 2025 En Bref. Tous droits réservés.</span>
+    </footer>
 </body>
 </html>
