@@ -1,4 +1,4 @@
-# My Coding Nook
+# Dimin.dev
 
 ## Description
 My personal landing page, where I share projects and code related stuff
