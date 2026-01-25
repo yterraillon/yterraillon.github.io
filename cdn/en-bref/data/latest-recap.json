@@ -1,34 +1,38 @@
 {
-  "title": "R\u00E9cap du 24 janvier",
+  "title": "R\u00E9cap du 25 janvier",
   "sections": [
     {
       "title": "Politique",
-      "text": "- Emmanuel Macron envisage d\u0027interdire l\u0027acc\u00E8s aux r\u00E9seaux sociaux pour les moins de 15 ans d\u00E8s la rentr\u00E9e prochaine, ce qui suscite des d\u00E9bats sur la protection des jeunes en ligne.\n- Donald Trump a menac\u00E9 le Canada de droits de douane \u00E0 100 % s\u0027il conclut un accord commercial avec la Chine, provoquant des tensions internationales.\n- La Pologne pr\u00E9voit de signer un contrat pour le plus important syst\u00E8me antidrones en Europe, renfor\u00E7ant sa d\u00E9fense nationale.\n- La sortie de Donald Trump sur les \u0022planqu\u00E9s\u0022 des autres pays de l\u0027OTAN en Afghanistan a suscit\u00E9 l\u0027indignation au Royaume-Uni."
-    },
-    {
-      "title": "\u00C9conomie",
-      "text": "- L\u0027Union Europ\u00E9enne et l\u0027Inde visent un accord commercial \u0022historique\u0022 pour contrer l\u0027influence \u00E9conomique am\u00E9ricaine.\n- Intersport a \u00E9t\u00E9 condamn\u00E9 \u00E0 une amende de 3,5 millions d\u0027euros par la CNIL pour des infractions li\u00E9es aux donn\u00E9es personnelles."
-    },
-    {
-      "title": "Soci\u00E9t\u00E9",
-      "text": "- Un tiers des chiens et la moiti\u00E9 des chats sont en surpoids, soulevant des pr\u00E9occupations sur la sant\u00E9 des animaux domestiques.\n- Les violences sexuelles commises sur les infirmi\u00E8res par les patients restent un tabou pr\u00E9occupant dans le secteur de la sant\u00E9.\n- Le suicide d\u0027une coll\u00E9gienne de 12 ans dans les Pyr\u00E9n\u00E9es-Orientales apr\u00E8s un possible harc\u00E8lement met en lumi\u00E8re les dangers du harc\u00E8lement scolaire."
+      "text": "- Les municipales de 2026 pourraient voir certaines villes sans candidats en raison des responsabilit\u00E9s difficiles et du faible nombre d\u0027habitants.\n- La primaire de la gauche unitaire pour la pr\u00E9sidentielle de 2027 est critiqu\u00E9e par \u00C9ric Coquerel, qui estime qu\u0027elle ne d\u00E9signera pas le vainqueur.\n- Rachida Dati accuse Emmanuel Gr\u00E9goire de s\u0027allier avec des promoteurs de l\u0027antis\u00E9mitisme dans le cadre des municipales \u00E0 Paris.\n- Emmanuel Macron se pr\u00E9pare \u00E0 tenir t\u00EAte \u00E0 Donald Trump jusqu\u0027en 2027, selon certaines analyses politiques."
     },
     {
       "title": "International",
-      "text": "- En Syrie, le contr\u00F4le des d\u00E9tenus n\u0027est plus une priorit\u00E9, ce qui pourrait entra\u00EEner un retour du chaos dans la r\u00E9gion.\n- Un enfant de 12 ans en Australie n\u0027a pas surv\u00E9cu \u00E0 une attaque de requin, soulignant les dangers persistants dans certaines zones c\u00F4ti\u00E8res."
+      "text": "- Minneapolis est au bord de l\u0027insurrection apr\u00E8s une nouvelle fusillade mortelle impliquant la police de l\u0027immigration, augmentant le risque de shutdown aux \u00C9tats-Unis.\n- Le capitaine indien du p\u00E9trolier \u0022Grinch\u0022, soup\u00E7onn\u00E9 d\u0027appartenir \u00E0 la flotte fant\u00F4me russe, est en garde \u00E0 vue.\n- Des pays ont rejoint le \u0022Conseil de la paix\u0022 initi\u00E9 par Trump, tandis que d\u0027autres ont refus\u00E9."
+    },
+    {
+      "title": "\u00C9conomie",
+      "text": "- La marque Babybio est concern\u00E9e par un rappel de produits laitiers infantiles.\n- Le Troph\u00E9e Jules Verne a \u00E9t\u00E9 remport\u00E9 en quarante jours par Thomas Coville, un exploit salu\u00E9 dans le monde nautique."
     },
     {
       "title": "Technologie",
-      "text": "- Le d\u00E9bat sur l\u0027\u00E2ge minimum pour acc\u00E9der aux r\u00E9seaux sociaux se poursuit, avec les g\u00E9ants de la tech se renvoyant la balle quant \u00E0 la responsabilit\u00E9 du contr\u00F4le."
+      "text": "- Larry Ellison, magnat de la tech, est d\u00E9crit comme une figure influente aupr\u00E8s de Donald Trump."
     },
     {
-      "title": "S\u00E9curit\u00E9",
-      "text": "- \u00C0 Nice, un suspect a \u00E9t\u00E9 interpell\u00E9 apr\u00E8s le meurtre d\u0027une jeune m\u00E8re de famille, tandis qu\u0027\u00E0 Bourges, les futurs locaux de la police municipale ont \u00E9t\u00E9 vis\u00E9s par des engins incendiaires."
+      "title": "Soci\u00E9t\u00E9",
+      "text": "- Une marche rassemblant plus de 2.200 personnes a eu lieu contre le harc\u00E8lement scolaire en m\u00E9moire de Cam\u00E9lia, une adolescente qui s\u0027est suicid\u00E9e.\n- La prolif\u00E9ration des espaces \u0022no kids\u0022 est critiqu\u00E9e comme \u00E9tant une cons\u00E9quence du laxisme \u00E9ducatif.\n- Pr\u00E8s de deux enfants sur trois sont mal attach\u00E9s en voiture, soulignant l\u0027importance des bons gestes \u00E0 adopter pour leur s\u00E9curit\u00E9."
     },
     {
-      "title": "Sport",
-      "text": "- Novak Djokovic s\u0027est qualifi\u00E9 pour les huiti\u00E8mes de finale de l\u0027Open d\u0027Australie, tandis que Naomi Osaka a d\u00E9clar\u00E9 forfait.\n- Dans le Top 14, le Stade Fran\u00E7ais a r\u00E9alis\u00E9 un exploit sur la pelouse de l\u0027UBB, et le match Toulon-Montpellier a \u00E9t\u00E9 report\u00E9 en raison des conditions m\u00E9t\u00E9orologiques."
+      "title": "Justice",
+      "text": "- Le s\u00E9nateur Jo\u00EBl Guerriau est jug\u00E9 pour avoir drogu\u00E9 \u00E0 son insu la d\u00E9put\u00E9e Sandrine Josso.\n- Octaviano M. V. a \u00E9t\u00E9 mis en examen et \u00E9crou\u00E9 pour l\u0027assassinat d\u0027une m\u00E8re devant son b\u00E9b\u00E9 \u00E0 Nice."
+    },
+    {
+      "title": "Culture",
+      "text": "- Monet, Van Gogh, Matisse et Dal\u00ED figurent parmi les artistes pr\u00E9f\u00E9r\u00E9s des Fran\u00E7ais.\n- Le Festival de l\u0027Alpe d\u0027Huez a r\u00E9v\u00E9l\u00E9 un palmar\u00E8s prouvant qu\u0027il existe de nombreuses fa\u00E7ons de rire."
+    },
+    {
+      "title": "Sports",
+      "text": "- Eric Perrot a r\u00E9alis\u00E9 une course parfaite en biathlon, prenant la t\u00EAte du g\u00E9n\u00E9ral avant les JO.\n- Le PSG a conclu un accord pour recruter Dro Fernandez, une p\u00E9pite du FC Barcelone."
     }
   ],
-  "createdAt": "2026-01-24T16:00:45.8007005Z"
+  "createdAt": "2026-01-25T16:00:34.0969992Z"
 }
