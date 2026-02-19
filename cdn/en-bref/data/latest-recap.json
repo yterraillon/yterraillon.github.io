@@ -1,34 +1,38 @@
 {
-  "title": "R\u00E9cap du 18 f\u00E9vrier",
+  "title": "R\u00E9cap du 19 f\u00E9vrier",
   "sections": [
     {
-      "title": "Technologie",
-      "text": "- Une nouvelle innovation pour les animaux de compagnie pourrait voir le jour avec l\u0027arriv\u00E9e d\u0027une \u0022Apple Watch\u0022 pour chiens, permettant la localisation et le suivi de la sant\u00E9 de nos amis \u00E0 quatre pattes.\n- Amazon Leo envisage de rattraper son retard sur Starlink en s\u0027appuyant sur Ariane 6 pour ses projets spatiaux.\n- Les cam\u00E9ras algorithmiques, utilisant l\u0027intelligence artificielle, pourraient bient\u00F4t \u00EAtre d\u00E9ploy\u00E9es dans les commerces pour diverses applications."
-    },
-    {
-      "title": "Environnement",
-      "text": "- La temp\u00EAte Pedro provoque des crues et inondations en France, avec des vagues \u00E9normes attendues sur le littoral atlantique. Quatre d\u00E9partements sont en alerte rouge.\n- Dans certaines r\u00E9gions agricoles touch\u00E9es par les inondations, il pourrait falloir des ann\u00E9es pour retrouver la m\u00EAme fertilit\u00E9 des sols.\n- Un homme est port\u00E9 disparu dans le Maine-et-Loire apr\u00E8s le chavirement de son cano\u00EB lors des inondations."
-    },
-    {
       "title": "Politique",
-      "text": "- La mort de Quentin Deranque suscite de vives r\u00E9actions politiques en France. G\u00E9rald Darmanin et Jordan Bardella ont exprim\u00E9 leurs critiques envers Jean-Luc M\u00E9lenchon et LFI, accusant l\u0027extr\u00EAme gauche de violence.\n- Le si\u00E8ge de LFI \u00E0 Paris a \u00E9t\u00E9 bri\u00E8vement \u00E9vacu\u00E9 apr\u00E8s une alerte \u00E0 la bombe.\n- En Isra\u00EBl, Aurore Berg\u00E9 travaille \u00E0 restaurer les relations franco-isra\u00E9liennes.\n- Trois d\u00E9put\u00E9s \u00E0 l\u0027Assembl\u00E9e nationale verront leurs indemnit\u00E9s r\u00E9duites pendant un mois suite \u00E0 une d\u00E9cision disciplinaire."
+      "text": "- Municipales 2026 : Les candidats s\u0027engagent pour les \u00AB m\u00E8res solos \u00BB.\n- Mort de Quentin Deranque : Emmanuel Macron appelle les \u00AB extr\u00EAmes \u00BB \u00E0 se discipliner.\n- Mort de Quentin Deranque : Emmanuel Macron exhorte Giorgia Meloni \u00E0 ne pas commenter les affaires fran\u00E7aises.\n- Meurtre de Quentin Deranque : D\u00E9bat sur le soutien de la Jeune Garde aux candidats du Nouveau Front Populaire.\n- Richard Malka critique LFI en lien avec l\u0027affaire Quentin Deranque.\n- Jean-Pierre Robin \u00E9voque une \u00AB cacocratie \u00BB en France."
     },
     {
       "title": "\u00C9conomie",
-      "text": "- Plus de 13.000 millionnaires fran\u00E7ais ne paient pas l\u0027imp\u00F4t sur le revenu, selon des documents r\u00E9v\u00E9l\u00E9s par Bercy."
+      "text": "- Intemp\u00E9ries et inondations pourraient faire grimper le prix des fraises.\n- Faillites : Le S\u00E9nat renforce les r\u00E8gles sur les retards de paiement."
+    },
+    {
+      "title": "Technologie",
+      "text": "- Quelles sont les cartes Pok\u00E9mon les plus ch\u00E8res de tous les temps ?\n- Nouvelle loi CAF : Clarifications sur la connexion bancaire."
     },
     {
       "title": "International",
-      "text": "- Le\u00EFla Shahid, ancienne repr\u00E9sentante de la Palestine en France, est d\u00E9c\u00E9d\u00E9e.\n- En Italie, une avalanche dans les Alpes a caus\u00E9 la mort de trois personnes.\n- En Ukraine, les pourparlers continuent d\u0027achopper sur les questions territoriales et la centrale de Zaporijjia."
+      "text": "- Affaire Epstein : L\u2019ex-Prince Andrew arr\u00EAt\u00E9 pour faute officielle.\n- Guerre en Ukraine : Trump lance un \u00AB Conseil de Paix \u00BB.\n- Iran : D\u00E9ploiement militaire am\u00E9ricain et possibles frappes ordonn\u00E9es par Trump.\n- \u00C9tats-Unis : La gauche am\u00E9ricaine r\u00E9agit \u00E0 Trump avec le \u00AB dark woke \u00BB."
+    },
+    {
+      "title": "Environnement",
+      "text": "- Temp\u00EAte Pedro et crues historiques en France, plusieurs d\u00E9partements en alerte rouge.\n- Crues et inondations affectent la fertilit\u00E9 des champs."
     },
     {
       "title": "Sports",
-      "text": "- Aux JO d\u0027hiver 2026, l\u0027\u00E9quipe fran\u00E7aise de biathlon f\u00E9minin a remport\u00E9 l\u0027or, contribuant \u00E0 un record de m\u00E9dailles d\u0027or pour la France."
+      "text": "- JO d\u2019hiver 2026 : Emily Harrop et Thibault Anselmet m\u00E9daill\u00E9s en ski-alpinisme."
     },
     {
-      "title": "Justice",
-      "text": "- Le proc\u00E8s du rappeur Naps se poursuit avec des t\u00E9moignages contradictoires concernant une accusation de viol."
+      "title": "Soci\u00E9t\u00E9",
+      "text": "- Nord : La chienne Sultane reconnue comme victime par la justice fran\u00E7aise.\n- Seine-et-Marne : D\u00E9couverte du corps mutil\u00E9 d\u2019une femme, son compagnon recherch\u00E9."
+    },
+    {
+      "title": "Culture et M\u00E9dias",
+      "text": "- Mort de Robert Duvall : Retour sur ses r\u00F4les embl\u00E9matiques.\n- En images, s\u00E9lection des r\u00E9pliques cultes de films."
     }
   ],
-  "createdAt": "2026-02-18T16:00:31.5154888Z"
+  "createdAt": "2026-02-19T16:00:27.3486031Z"
 }
