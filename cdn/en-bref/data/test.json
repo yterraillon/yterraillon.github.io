@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-08",
+  "categories": [
+    {
+      "category": "politics",
+      "briefs": [
+        {
+          "title": "Le gouvernement présente son projet de budget",
+          "summary": "Récap de test : aucun LLM appelé."
+        }
+      ]
+    },
+    {
+      "category": "international",
+      "briefs": [
+        {
+          "title": "Sommet international sur le climat à Genève",
+          "summary": "Récap de test : aucun LLM appelé."
+        }
+      ]
+    },
+    {
+      "category": "economy",
+      "briefs": [
+        {
+          "title": "L'inflation recule pour le troisième mois consécutif",
+          "summary": "Récap de test : aucun LLM appelé."
+        }
+      ]
+    },
+    {
+      "category": "society",
+      "briefs": [
+        {
+          "title": "Grève dans les transports en Île-de-France",
+          "summary": "Récap de test : aucun LLM appelé."
+        }
+      ]
+    },
+    {
+      "category": "technologyAndScience",
+      "briefs": [
+        {
+          "title": "Une nouvelle puce promet de diviser par deux la consommation des data centers",
+          "summary": "Récap de test : aucun LLM appelé."
+        }
+      ]
+    },
+    {
+      "category": "sport",
+      "briefs": [
+        {
+          "title": "Le XV de France s'impose face à l'Irlande",
+          "summary": "Récap de test : aucun LLM appelé."
+        }
+      ]
+    },
+    {
+      "category": "culture",
+      "briefs": [
+        {
+          "title": "Le festival d'Avignon dévoile sa programmation",
+          "summary": "Récap de test : aucun LLM appelé."
+        }
+      ]
+    }
+  ]
+}
