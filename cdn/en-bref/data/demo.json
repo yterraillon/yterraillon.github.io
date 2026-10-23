@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-09",
+  "categories": [
+    {
+      "category": "politics",
+      "briefs": [
+        {
+          "title": "Blocus des lycées : le mouvement en nette décélération",
+          "summary": "Le mouvement de blocage des établissements scolaires poursuit son ralentissement avec plus de 6900 gardes à vue et 21 placements en détention provisoire, les dégâts évalués à plus de 30 millions d'euros."
+        },
+        {
+          "title": "Primaire de la gauche perturbée par une cyberattaque",
+          "summary": "La plateforme de vote de la primaire de la gauche a subi une cyberattaque à son ouverture, avec plus de 140000 inscrits confrontés à cette panne technique majeure."
+        }
+      ]
+    },
+    {
+      "category": "international",
+      "briefs": [
+        {
+          "title": "Ukraine : les émissaires de Zelensky rencontrent l'équipe Trump",
+          "summary": "Les négociateurs ukrainiens vont rencontrer l'équipe de Donald Trump pour discuter des possibilités de concessions ou d'escalade dans le conflit en cours."
+        },
+        {
+          "title": "Prix Nobel de la paix à Navanethem Pillay",
+          "summary": "La juriste sud-africaine Navanethem « Navi » Pillay reçoit le Prix Nobel de la paix 2026, décision qui provoque une controverse avec Israël."
+        }
+      ]
+    },
+    {
+      "category": "economy",
+      "briefs": [
+        {
+          "title": "Explosion des demandes d'acompte sur salaire",
+          "summary": "Les salariés français font de plus en plus de demandes d'avances sur salaire, révélant une nouvelle tendance de nécessité financière dans les ménages."
+        },
+        {
+          "title": "Grand emprunt national pour répondre à la crise de la dette",
+          "summary": "Le gouvernement envisage un méga-emprunt national pour tenter de sauver la France de la banqueroute et réduire l'endettement croissant."
+        }
+      ]
+    },
+    {
+      "category": "society",
+      "briefs": [
+        {
+          "title": "Trois sœurs se suicident à même endroit que leur mère",
+          "summary": "Au Royaume-Uni, trois sœurs se sont suicidées dans la mer au même endroit où leur mère s'était noyée seize ans auparavant, mettant en lumière des enjeux de santé mentale."
+        },
+        {
+          "title": "Vol des données de 48 millions de propriétaires",
+          "summary": "Le piratage des données personnelles de 48 millions de propriétaires français constitue un scandale majeur avec risques de squats et cambriolages."
+        }
+      ]
+    },
+    {
+      "category": "technologyAndScience",
+      "briefs": [
+        {
+          "title": "L'astronaute française Sophie Adenot de retour sur Terre",
+          "summary": "L'astronaute française Sophie Adenot revient sur Terre après sa mission spatiale et commence une longue période de réadaptation."
+        },
+        {
+          "title": "Les IA peuvent-elles ressentir la douleur ?",
+          "summary": "Une expérience de « chambre de torture » numérique déclenche une controverse sur la capacité des intelligences artificielles à ressentir la souffrance."
+        }
+      ]
+    },
+    {
+      "category": "sport",
+      "briefs": [
+        {
+          "title": "Victor Wembanyama soutient les lycéens français",
+          "summary": "La star de la NBA Victor Wembanyama dénonce les inégalités systémiques et exprime son soutien au mouvement de protestation des lycéens français."
+        },
+        {
+          "title": "Chloé Paquet sort de soins intensifs après sa défaite",
+          "summary": "La joueuse de tennis française Chloé Paquet revient sur ses sept jours en réanimation suite à un malaise lors d'un match à Sao Paulo."
+        }
+      ]
+    },
+    {
+      "category": "culture",
+      "briefs": [
+        {
+          "title": "Deux Renoir volés retrouvés par la police",
+          "summary": "Les deux tableaux de Renoir dérobés au musée de Cagnes-sur-Mer ont été retrouvés par les autorités, mettant fin à cette affaire de vol artistique."
+        },
+        {
+          "title": "Le style singulier de Mike Flanagan expliqué",
+          "summary": "L'analyse du réalisateur Mike Flanagan révèle son approche unique combinant adaptations hasardeuses et transformation du drame en effroi."
+        }
+      ]
+    }
+  ]
+}
