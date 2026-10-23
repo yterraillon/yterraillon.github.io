@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Créateur d'aventures</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap">
+<style>
+  :root { --bg:#fff6e6; --ink:#2b2140; --muted:#7a6f8a; --line:#f0e2c8; --perso:#ff7a59; --aventure:#2fa89b; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100dvh; padding: 16px;
+    display: flex; justify-content: center; align-items: center;
+    font-family: "Fredoka", system-ui, sans-serif; background: var(--bg); color: var(--ink);
+  }
+  main { width: 100%; max-width: 480px; display: flex; flex-direction: column; gap: 14px; }
+  h1 { text-align: center; font-size: 1.6rem; margin: 0 0 8px; }
+  .card {
+    background: #fff; border-radius: 20px; padding: 18px 16px; text-align: center;
+    border-top: 8px solid var(--c); box-shadow: 0 4px 0 var(--line);
+  }
+  .perso { --c: var(--perso); }
+  .aventure { --c: var(--aventure); }
+  .label { font-size: .85rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--c); }
+  .value { font-size: clamp(1.6rem, 7vw, 2.2rem); font-weight: 600; margin-top: 6px; min-height: 1.3em; line-height: 1.2; }
+  .spinning .value { opacity: .45; }
+  .pop { animation: pop .35s ease; }
+  @keyframes pop { 50% { transform: scale(1.05); } }
+  .plus { text-align: center; font-size: 1.6rem; color: var(--muted); margin: -6px 0; }
+  button {
+    font: inherit; font-size: 1.4rem; font-weight: 600; margin-top: 10px;
+    border: 0; border-radius: 999px; padding: 18px; cursor: pointer;
+    background: var(--ink); color: #fff; box-shadow: 0 5px 0 #0006;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button:active { transform: translateY(3px); box-shadow: 0 2px 0 #0006; }
+  button:disabled { opacity: .6; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🎲 Créateur d'aventures</h1>
+  <div class="card perso"><div class="label">Personnage</div><div class="value" id="perso">?</div></div>
+  <div class="plus">+</div>
+  <div class="card aventure"><div class="label">Aventure</div><div class="value" id="aventure">?</div></div>
+  <button id="go" disabled>Chargement…</button>
+</main>
+<script>
+  const persoEl = document.getElementById('perso');
+  const aventureEl = document.getElementById('aventure');
+  const btn = document.getElementById('go');
+  let persos = [], aventures = [], last = {};
+
+  // Lit un fichier texte : une ligne = un élément, lignes vides et "#..." ignorées
+  async function loadList(file) {
+    const txt = await (await fetch(file, { cache: 'no-cache' })).text();
+    return txt.split('\n').map(l => l.trim()).filter(l => l && !l.startsWith('#'));
+  }
+
+  // Tire au hasard en évitant de répéter le tirage précédent
+  function pick(list, prev) {
+    if (list.length < 2) return list[0] ?? '—';
+    let v;
+    do { v = list[Math.floor(Math.random() * list.length)]; } while (v === prev);
+    return v;
+  }
+
+  function draw() {
+    btn.disabled = true;
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(c => { c.classList.remove('pop'); c.classList.add('spinning'); });
+    let ticks = 0;
+    const timer = setInterval(() => {
+      persoEl.textContent = pick(persos);
+      aventureEl.textContent = pick(aventures);
+      if (++ticks >= 12) {
+        clearInterval(timer);
+        last.p = persoEl.textContent = pick(persos, last.p);
+        last.a = aventureEl.textContent = pick(aventures, last.a);
+        cards.forEach(c => { c.classList.remove('spinning'); void c.offsetWidth; c.classList.add('pop'); });
+        btn.disabled = false;
+      }
+    }, 70);
+  }
+
+  Promise.all([loadList('personnages.txt'), loadList('aventures.txt')])
+    .then(([p, a]) => {
+      persos = p; aventures = a;
+      btn.textContent = 'Nouvelle aventure !';
+      btn.disabled = false;
+      btn.addEventListener('click', draw);
+    })
+    .catch(() => { btn.textContent = 'Erreur de chargement des listes'; });
+</script>
+</body>
+</html>
