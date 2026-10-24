@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flip 7 · Compteur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<main>
+  <div class="topbar">
+    <a class="back" href="./">← Jeux</a>
+    <span class="round-label" id="roundLabel"></span>
+  </div>
+
+  <header>
+    <h1>🃏 Flip 7</h1>
+    <p class="subtitle">Premier à 200 points. En cas d'égalité en tête, round supplémentaire.</p>
+  </header>
+
+  <!-- Setup -->
+  <section id="setup" class="card" hidden>
+    <h2>Joueurs</h2>
+    <div class="stepper" style="margin-top:12px">
+      <button type="button" class="ghost" id="minus" aria-label="Retirer un joueur">−</button>
+      <span class="count" id="count">2</span>
+      <button type="button" class="ghost" id="plus" aria-label="Ajouter un joueur">+</button>
+    </div>
+    <form id="setupForm" autocomplete="off">
+      <div class="names" id="names"></div>
+      <p class="error" id="setupError"></p>
+      <button type="submit" class="big">C'est parti !</button>
+    </form>
+  </section>
+
+  <!-- Game -->
+  <section id="game" hidden>
+    <div style="display:flex; flex-direction:column; gap:16px">
+      <div id="banner"></div>
+
+      <div class="card">
+        <div class="board" id="board"></div>
+      </div>
+
+      <!-- Round entry -->
+      <div class="card" id="entryCard" hidden>
+        <h2 id="entryTitle">Round 1</h2>
+        <p class="hint">Saisis le score de chaque joueur, ou « Bust » s'il a sauté.</p>
+        <form id="entryForm" class="entry" autocomplete="off" style="margin-top:12px">
+          <div class="entry" id="entryRows"></div>
+          <p class="error" id="entryError"></p>
+          <div class="row">
+            <button type="button" class="ghost" id="cancelEntry">Annuler</button>
+            <button type="submit" class="secondary">Valider le round</button>
+          </div>
+        </form>
+      </div>
+
+      <button type="button" class="big" id="openEntry">Saisir le round</button>
+
+      <div class="card" id="historyCard" hidden>
+        <details id="historyDetails">
+          <summary>Détail des rounds</summary>
+          <div class="history-wrap"><table class="history" id="history"></table></div>
+        </details>
+      </div>
+
+      <div class="actions">
+        <button type="button" class="ghost" id="undo">↶ Annuler le dernier round</button>
+        <div class="row">
+          <button type="button" class="ghost" id="replay">Rejouer, mêmes joueurs</button>
+          <button type="button" class="ghost" id="newGame">Nouvelle partie</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+(() => {
+  const GAME = { id: "flip7", target: 200, minPlayers: 2, maxPlayers: 10 };
+  const KEY = "scores." + GAME.id;
+
+  // ---------- State ----------
+  // { phase: "setup" | "playing" | "finished", players: [names], rounds: [[score|null(bust)]] }
+  let state = load() || { phase: "setup", players: [], rounds: [] };
+  let setupCount = Math.max(GAME.minPlayers, state.players.length || GAME.minPlayers);
+  let setupNames = state.players.slice();
+
+  function load() {
+    try {
+      const s = JSON.parse(localStorage.getItem(KEY));
+      if (s && Array.isArray(s.players) && Array.isArray(s.rounds) && s.phase) return s;
+    } catch (e) {}
+    return null;
+  }
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  // ---------- Helpers ----------
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  function totals() {
+    return state.players.map((_, i) => state.rounds.reduce((sum, r) => sum + (r[i] || 0), 0));
+  }
+
+  // Returns { status: "ongoing" | "tie" | "win", winner?, tied?[] }
+  function outcome() {
+    const t = totals();
+    const max = Math.max(...t);
+    if (!state.rounds.length || max < GAME.target) return { status: "ongoing" };
+    const leaders = t.map((v, i) => (v === max ? i : -1)).filter((i) => i >= 0);
+    if (leaders.length === 1) return { status: "win", winner: leaders[0] };
+    return { status: "tie", tied: leaders };
+  }
+
+  // Two-tap confirmation instead of a blocking dialog
+  function confirmTap(btn, label, action, needsConfirm) {
+    btn.addEventListener("click", () => {
+      if (!needsConfirm()) return action();
+      if (btn.classList.contains("confirming")) {
+        clearTimeout(btn._t);
+        btn.classList.remove("confirming");
+        btn.textContent = label;
+        return action();
+      }
+      btn.classList.add("confirming");
+      btn.textContent = "Sûr ? Tape encore";
+      btn._t = setTimeout(() => {
+        btn.classList.remove("confirming");
+        btn.textContent = label;
+      }, 3000);
+    });
+  }
+
+  // ---------- Setup ----------
+  function renderSetup() {
+    $("count").textContent = setupCount;
+    $("minus").disabled = setupCount <= GAME.minPlayers;
+    $("plus").disabled = setupCount >= GAME.maxPlayers;
+    const wrap = $("names");
+    wrap.innerHTML = "";
+    for (let i = 0; i < setupCount; i++) {
+      const label = document.createElement("label");
+      label.innerHTML = `<span class="num">${i + 1}</span><input type="text" maxlength="20" placeholder="Joueur ${i + 1}" enterkeyhint="next">`;
+      const inp = label.querySelector("input");
+      inp.value = setupNames[i] || "";
+      inp.addEventListener("input", () => (setupNames[i] = inp.value));
+      wrap.appendChild(label);
+    }
+    $("setupError").textContent = "";
+  }
+
+  $("minus").addEventListener("click", () => { if (setupCount > GAME.minPlayers) { setupCount--; renderSetup(); } });
+  $("plus").addEventListener("click", () => { if (setupCount < GAME.maxPlayers) { setupCount++; renderSetup(); } });
+
+  $("setupForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const inputs = [...$("names").querySelectorAll("input")];
+    const names = inputs.map((inp, i) => inp.value.trim() || `Joueur ${i + 1}`);
+    const lower = names.map((n) => n.toLowerCase());
+    if (new Set(lower).size !== names.length) {
+      $("setupError").textContent = "Deux joueurs ont le même nom.";
+      return;
+    }
+    state = { phase: "playing", players: names, rounds: [] };
+    setupNames = names.slice();
+    save();
+    render();
+  });
+
+  // ---------- Game ----------
+  function renderBoard() {
+    const t = totals();
+    const last = state.rounds[state.rounds.length - 1];
+    const max = Math.max(...t);
+    const order = t.map((v, i) => i).sort((a, b) => t[b] - t[a] || a - b);
+    let html = "";
+    let rank = 0, prev = null;
+    order.forEach((i, pos) => {
+      if (t[i] !== prev) { rank = pos + 1; prev = t[i]; }
+      const pct = Math.min(100, (t[i] / GAME.target) * 100);
+      let delta = "";
+      if (last) delta = last[i] === null ? `<span class="delta zero">bust</span>` : `<span class="delta">+${last[i]}</span>`;
+      const classes = ["player"];
+      if (state.rounds.length && t[i] === max) classes.push("leader");
+      if (t[i] >= GAME.target) classes.push("over");
+      html += `<div class="${classes.join(" ")}">
+        <span class="rank">${rank === 1 && state.rounds.length ? "★" : rank}</span>
+        <span class="pname">${esc(state.players[i])}</span>
+        <span class="total">${delta}${t[i]}</span>
+        <span class="bar"><span style="width:${pct}%"></span></span>
+      </div>`;
+    });
+    $("board").innerHTML = html;
+  }
+
+  function renderBanner() {
+    const o = outcome();
+    const b = $("banner");
+    if (o.status === "win") {
+      const t = totals();
+      b.innerHTML = `<div class="banner win"><span class="trophy">🏆</span>${esc(state.players[o.winner])} gagne avec ${t[o.winner]} points !</div>`;
+    } else if (o.status === "tie") {
+      const names = o.tied.map((i) => esc(state.players[i])).join(", ");
+      b.innerHTML = `<div class="banner tie">Égalité en tête entre ${names} — round supplémentaire !</div>`;
+    } else {
+      b.innerHTML = "";
+    }
+  }
+
+  function renderHistory() {
+    const n = state.rounds.length;
+    $("historyCard").hidden = n === 0;
+    if (!n) return;
+    const t = totals();
+    let head = `<tr><th>Joueur</th>${state.rounds.map((_, r) => `<th>R${r + 1}</th>`).join("")}<th>Total</th></tr>`;
+    let body = state.players.map((p, i) =>
+      `<tr><td>${esc(p)}</td>${state.rounds.map((r) => r[i] === null ? `<td class="bust">✕</td>` : `<td>${r[i]}</td>`).join("")}<td class="total">${t[i]}</td></tr>`
+    ).join("");
+    $("history").innerHTML = `<thead>${head}</thead><tbody>${body}</tbody>`;
+  }
+
+  function renderGame() {
+    const finished = state.phase === "finished";
+    const roundNo = state.rounds.length + 1;
+    $("roundLabel").textContent = finished ? `Terminée · ${state.rounds.length} rounds` : `Round ${roundNo}`;
+    $("entryTitle").textContent = `Round ${roundNo}`;
+    $("openEntry").textContent = `Saisir le round ${roundNo}`;
+    $("openEntry").hidden = finished || !$("entryCard").hidden;
+    $("undo").hidden = state.rounds.length === 0;
+    renderBanner();
+    renderBoard();
+    renderHistory();
+  }
+
+  // ---------- Round entry ----------
+  function openEntry() {
+    const rows = $("entryRows");
+    const t = totals();
+    rows.innerHTML = state.players.map((p, i) => `
+      <div class="entry-row" data-i="${i}">
+        <span class="pname">${esc(p)}<small>${t[i]} pts</small></span>
+        <input type="number" inputmode="numeric" min="0" max="999" step="1" placeholder="0" aria-label="Score de ${esc(p)}" enterkeyhint="${i === state.players.length - 1 ? "done" : "next"}">
+        <button type="button" class="bust" aria-pressed="false">Bust</button>
+      </div>`).join("");
+    rows.querySelectorAll(".entry-row").forEach((row) => {
+      const btn = row.querySelector(".bust");
+      const inp = row.querySelector("input");
+      btn.addEventListener("click", () => {
+        const on = !btn.classList.contains("on");
+        btn.classList.toggle("on", on);
+        btn.setAttribute("aria-pressed", on);
+        row.classList.toggle("busted", on);
+        inp.disabled = on;
+        if (on) { inp.value = ""; inp.classList.remove("invalid"); }
+      });
+      inp.addEventListener("input", () => inp.classList.remove("invalid"));
+      inp.addEventListener("keydown", (e) => {
+        if (e.key !== "Enter") return;
+        const next = rows.querySelectorAll("input:not(:disabled)");
+        const idx = [...next].indexOf(inp);
+        if (idx >= 0 && idx < next.length - 1) { e.preventDefault(); next[idx + 1].focus(); }
+      });
+    });
+    $("entryError").textContent = "";
+    $("entryCard").hidden = false;
+    $("openEntry").hidden = true;
+    const first = rows.querySelector("input");
+    if (first) first.focus();
+    $("entryCard").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function closeEntry() {
+    $("entryCard").hidden = true;
+    renderGame();
+  }
+
+  $("openEntry").addEventListener("click", openEntry);
+  $("cancelEntry").addEventListener("click", closeEntry);
+
+  $("entryForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const scores = [];
+    let ok = true;
+    $("entryRows").querySelectorAll(".entry-row").forEach((row) => {
+      const inp = row.querySelector("input");
+      if (row.querySelector(".bust").classList.contains("on")) { scores.push(null); return; }
+      const raw = inp.value.trim();
+      const v = Number(raw);
+      if (raw === "" || !Number.isInteger(v) || v < 0 || v > 999) {
+        inp.classList.add("invalid");
+        ok = false;
+        scores.push(undefined);
+      } else {
+        scores.push(v);
+      }
+    });
+    if (!ok) {
+      $("entryError").textContent = "Il manque un score (ou « Bust ») pour certains joueurs.";
+      const bad = $("entryRows").querySelector("input.invalid");
+      if (bad) bad.focus();
+      return;
+    }
+    state.rounds.push(scores);
+    state.phase = outcome().status === "win" ? "finished" : "playing";
+    save();
+    $("entryCard").hidden = true;
+    renderGame();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  // ---------- Actions ----------
+  const inProgress = () => state.rounds.length > 0 && state.phase !== "finished";
+
+  confirmTap($("undo"), "↶ Annuler le dernier round", () => {
+    state.rounds.pop();
+    state.phase = "playing";
+    save();
+    $("entryCard").hidden = true;
+    renderGame();
+  }, () => true);
+
+  confirmTap($("replay"), "Rejouer, mêmes joueurs", () => {
+    state = { phase: "playing", players: state.players.slice(), rounds: [] };
+    save();
+    $("entryCard").hidden = true;
+    render();
+  }, inProgress);
+
+  confirmTap($("newGame"), "Nouvelle partie", () => {
+    setupNames = state.players.slice();
+    setupCount = Math.max(GAME.minPlayers, state.players.length);
+    state = { phase: "setup", players: state.players.slice(), rounds: [] };
+    save();
+    $("entryCard").hidden = true;
+    render();
+  }, inProgress);
+
+  // ---------- Root render ----------
+  function render() {
+    const setup = state.phase === "setup";
+    $("setup").hidden = !setup;
+    $("game").hidden = setup;
+    if (setup) {
+      $("roundLabel").textContent = "";
+      renderSetup();
+    } else {
+      renderGame();
+    }
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>
