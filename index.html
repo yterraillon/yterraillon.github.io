@@ -20,26 +20,68 @@
             justify-content: center;
             min-height: 80vh;
         }
+        .centered {
+            padding: 0 16px;
+            text-align: center;
+        }
+        /* Mobile first: one column, icon left / text right */
         .app-list {
             margin: 2rem 0 3rem 0;
             padding: 0;
             list-style: none;
             max-width: 400px;
             width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
         }
+        .app-list > li { display: flex; }
         .app-item {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 1.2em;
             background: #fff;
             border-radius: 1rem;
             box-shadow: 0 2px 8px rgba(0,0,0,0.04);
             padding: 2rem 1.5rem;
-            margin-bottom: 1.5rem;
             text-align: left;
             border: 1px solid transparent;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+        .app-icon {
+            flex: none;
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: var(--bg, #fff);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
         }
         .app-title {
             font-size: 1.3rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
+        }
+        /* Tablet: 2 columns / desktop: 4 in a row; icon above text */
+        @media (min-width: 768px) {
+            .app-list {
+                max-width: 1100px;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .app-item {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1.75rem 1.5rem;
+            }
+        }
+        @media (min-width: 1100px) {
+            .app-list { grid-template-columns: repeat(4, 1fr); }
         }
         .footer {
             text-align: center;
@@ -71,42 +113,42 @@
         </div>
         <div style="font-size:1.2rem; color:#555; margin-bottom:2.5em;">Nous créons des apps utiles pour booster votre productivité.</div>
         <ul class="app-list">
-            <a href="https://enbref.app" style="text-decoration:none; color:inherit;">
-                <li class="app-item" style="display: flex; align-items: center; gap: 1.2em; cursor:pointer;">
-                    <img src="./cdn/en-bref/images/EnBrefLogo_Black_WhiteBG.png" alt="Logo En Bref" style="width:48px; height:48px; border-radius:12px; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,0.07);" />
-                    <div>
+            <li>
+                <a class="app-item" href="https://enbref.app">
+                    <img class="app-icon" src="./cdn/en-bref/images/EnBrefLogo_Black_WhiteBG.png" alt="Logo En Bref" />
+                    <div class="app-text">
                         <div class="app-title">En Bref</div>
                         <div>Le récap quotidien des titres, simple et rapide à lire.</div>
                     </div>
-                </li>
-            </a>
-            <a href="./pages/stories/" style="text-decoration:none; color:inherit;">
-                <li class="app-item" style="display: flex; align-items: center; gap: 1.2em; cursor:pointer;">
-                    <div style="width:48px; height:48px; border-radius:12px; background:#fff6e6; box-shadow:0 1px 4px rgba(0,0,0,0.07); display:flex; align-items:center; justify-content:center; font-size:1.6rem;">📖</div>
-                    <div>
+                </a>
+            </li>
+            <li>
+                <a class="app-item" href="./pages/stories/">
+                    <div class="app-icon" style="--bg:#fff6e6;">📖</div>
+                    <div class="app-text">
                         <div class="app-title">Créateur d'aventures</div>
                         <div>Tire au sort un personnage et une aventure pour inventer une histoire.</div>
                     </div>
-                </li>
-            </a>
-            <a href="./pages/scores/" style="text-decoration:none; color:inherit;">
-                <li class="app-item" style="display: flex; align-items: center; gap: 1.2em; cursor:pointer;">
-                    <div style="width:48px; height:48px; border-radius:12px; background:#fdeee8; box-shadow:0 1px 4px rgba(0,0,0,0.07); display:flex; align-items:center; justify-content:center; font-size:1.6rem;">🎲</div>
-                    <div>
+                </a>
+            </li>
+            <li>
+                <a class="app-item" href="./pages/scores/">
+                    <div class="app-icon" style="--bg:#fdeee8;">🎲</div>
+                    <div class="app-text">
                         <div class="app-title">Compteur de points</div>
                         <div>Compte les scores de tes jeux de société, comme Flip 7.</div>
                     </div>
-                </li>
-            </a>
-            <a href="./pages/meal-picker/" style="text-decoration:none; color:inherit;">
-                <li class="app-item" style="display: flex; align-items: center; gap: 1.2em; cursor:pointer;">
-                    <div style="width:48px; height:48px; border-radius:12px; background:#eaf6ec; box-shadow:0 1px 4px rgba(0,0,0,0.07); display:flex; align-items:center; justify-content:center; font-size:1.6rem;">🍽️</div>
-                    <div>
+                </a>
+            </li>
+            <li>
+                <a class="app-item" href="./pages/meal-picker/">
+                    <div class="app-icon" style="--bg:#eaf6ec;">🍽️</div>
+                    <div class="app-text">
                         <div class="app-title">Sélecteur de repas</div>
                         <div>Tire au sort un repas ou le menu de la semaine.</div>
                     </div>
-                </li>
-            </a>
+                </a>
+            </li>
         </ul>
     </div>
     <div class="footer">
