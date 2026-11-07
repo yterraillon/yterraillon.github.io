@@ -67,6 +67,19 @@ h2 { font-size: 1.35rem; font-weight: 700; }
 .back:hover { color: var(--ink); }
 
 .subtitle { color: var(--muted); margin: 4px 0 0; }
+.rules { color: var(--muted); font-size: .85rem; margin: 2px 0 0; }
+
+.badge {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--gold) 35%, transparent);
+}
 
 .card {
   background: var(--surface);
@@ -120,6 +133,7 @@ button.icon {
 .single { text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center; }
 .single .label { color: var(--muted); font-weight: 600; }
 .single .meal-name { font-size: 1.6rem; font-weight: 800; line-height: 1.2; }
+.single .meal-extra { font-size: 1.2rem; font-weight: 600; color: var(--muted); }
 
 /* ---------- Week ---------- */
 
@@ -137,6 +151,9 @@ button.icon {
   border-bottom: 1px solid var(--line);
 }
 .day:last-child { border-bottom: 0; }
+.day.has-extra { border-bottom: 0; padding-bottom: 0; }
+.day.extra { padding-top: 0; }
+.day.extra .meal { color: var(--muted); }
 .day .dname { font-weight: 700; color: var(--muted); }
 .day .meal { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
 
