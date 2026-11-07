@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sélecteur de repas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<main>
+  <div class="topbar">
+    <a class="back" href="../../">← Accueil</a>
+  </div>
+
+  <header>
+    <h1>Qu'est-ce qu'on mange ? 🍽️</h1>
+    <p class="subtitle">Un repas au hasard, ou le menu de toute la semaine.</p>
+  </header>
+
+  <div class="row actions">
+    <button id="btn-one" type="button" disabled>🎲 Un repas</button>
+    <button id="btn-week" class="secondary" type="button" disabled>📅 La semaine</button>
+  </div>
+
+  <p id="error" class="error hidden"></p>
+
+  <section id="single" class="card single hidden" aria-live="polite">
+    <span class="label">Ce soir :</span>
+    <span id="single-name" class="meal-name"></span>
+    <button id="btn-one-again" class="ghost" type="button">🔄 Autre</button>
+  </section>
+
+  <section id="week-card" class="card hidden">
+    <div class="week-head">
+      <h2>Menu de la semaine</h2>
+      <small id="week-date"></small>
+    </div>
+    <ol id="week" class="week"></ol>
+    <div class="row week-actions">
+      <button id="btn-copy" class="ghost" type="button">📋 Copier</button>
+      <button id="btn-new-week" class="ghost" type="button">🔄 Nouvelle semaine</button>
+    </div>
+  </section>
+</main>
+<script src="./app.js"></script>
+</body>
+</html>
