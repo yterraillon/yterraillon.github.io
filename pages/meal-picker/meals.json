@@ -53,6 +53,11 @@
     {"id": "carottes-pommes-de-terre-viande-rouge", "nom": "Carottes pommes de terre · Viande rouge", "legume": "Carottes pommes de terre", "proteine": "Viande rouge", "categorie": "viande-rouge", "tags": [], "cleLegume": "carottes-pommes-de-terre", "cleProteine": "viande-rouge"},
     {"id": "carottes-pommes-de-terre-veau", "nom": "Carottes pommes de terre · Veau", "legume": "Carottes pommes de terre", "proteine": "Veau", "categorie": "veau", "tags": [], "cleLegume": "carottes-pommes-de-terre", "cleProteine": "veau"},
     {"id": "fajitas", "nom": "Fajitas", "legume": null, "proteine": null, "categorie": "mixte", "tags": [], "cleLegume": null, "cleProteine": null},
+    {"id": "pizza-maison", "nom": "Pizza maison", "legume": null, "proteine": null, "categorie": "mixte", "tags": [], "cleLegume": null, "cleProteine": null},
+    {"id": "salade-tourte-saint-jacques", "nom": "Salade · Tourte Saint-Jacques", "legume": "Salade", "proteine": "Tourte Saint-Jacques", "categorie": "fruits-de-mer", "tags": [], "cleLegume": "salade", "cleProteine": "saint-jacques"},
+    {"id": "quenelles", "nom": "Quenelles", "legume": null, "proteine": null, "categorie": "mixte", "tags": [], "cleLegume": null, "cleProteine": null},
+    {"id": "salade-gesiers", "nom": "Salade · Gésiers", "legume": "Salade", "proteine": "Gésiers", "categorie": "volaille", "tags": [], "cleLegume": "salade", "cleProteine": "gesiers"},
+    {"id": "boules-courgettes-viande-rouge", "nom": "Boules courgettes · Viande rouge", "legume": "Boules courgettes", "proteine": "Viande rouge", "categorie": "viande-rouge", "tags": [], "cleLegume": "courgettes", "cleProteine": "viande-rouge"},
     {"id": "legumes-vapeur", "nom": "Légumes vapeur", "legume": "Légumes vapeur", "proteine": null, "categorie": "vegetarien", "tags": ["cecile"], "cleLegume": "legumes-vapeur", "cleProteine": null},
     {"id": "lentilles-saucisse", "nom": "Lentilles · Saucisse", "legume": "Lentilles", "proteine": "Saucisse", "categorie": "porc", "tags": ["cecile"], "cleLegume": "lentilles", "cleProteine": "saucisse"}
   ]
