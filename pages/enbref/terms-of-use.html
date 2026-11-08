@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conditions générales d’utilisation — EnBref</title>
+    <meta name="description" content="Conditions générales d’utilisation de l’application EnBref.">
+    <script>
+        // Clair ou Sombre, suivi automatiquement : tokens.css bascule sur data-theme.
+        (() => {
+            const dark = window.matchMedia("(prefers-color-scheme: dark)");
+            const apply = () => document.documentElement.dataset.theme = dark.matches ? "dark" : "light";
+            apply();
+            dark.addEventListener("change", apply);
+        })();
+    </script>
+    <link rel="stylesheet" href="./design-system/tokens.css">
+    <link rel="stylesheet" href="./design-system/bundle.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./images/favicons/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="./images/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body>
+    <header class="site-bar">
+        <div class="container">
+            <a class="brand headline" href="./index.html">
+                <img src="./images/favicons/apple-touch-icon.png" alt="" width="36" height="36">
+                EnBref
+            </a>
+            <nav class="site-nav control" aria-label="Navigation principale">
+                <a class="nav-optional" href="./index.html#fonctionnalites">Fonctionnalités</a>
+                <a href="./support.html">Support</a>
+                <span class="soon soon--small footnote nav-optional">Bientôt sur l’App Store</span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container container--narrow">
+            <div class="page-head">
+                <h1 class="large-title">Conditions générales d’utilisation</h1>
+                <p class="footnote muted">Dernière mise à jour&nbsp;: 8 novembre 2026</p>
+            </div>
+            <section class="card prose">
+                <h2 class="headline">1. Objet</h2>
+                <p class="article-body-m">Les présentes conditions générales d’utilisation (CGU) définissent les modalités d’utilisation de l’application EnBref.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">2. Fonctionnement de l’application</h2>
+                <p class="article-body-m">L’application fournit un récap quotidien des titres de l’actualité. Les informations affichées proviennent de sources publiques et accessibles. EnBref ne traite pas le contenu complet des articles et ne fournit pas d’analyse éditoriale.</p>
+                <p class="article-body-m">Le récap est rédigé automatiquement, à l’aide d’un modèle d’intelligence artificielle, à partir des titres publiés par ces sources.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">3. Propriété intellectuelle</h2>
+                <p class="article-body-m">L’interface, les textes, les logos et le code source de l’application sont protégés par les lois en vigueur sur la propriété intellectuelle. Toute reproduction ou réutilisation sans autorisation est interdite.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">4. Responsabilité</h2>
+                <p class="article-body-m">EnBref s’efforce de fournir des informations fiables, mais ne garantit ni l’exhaustivité, ni l’exactitude, ni la disponibilité continue des contenus. L’utilisateur reste responsable de l’usage qu’il fait des informations affichées.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">5. Évolutions</h2>
+                <p class="article-body-m">L’application peut évoluer, être mise à jour ou suspendue sans préavis. Les présentes CGU peuvent également être modifiées à tout moment&nbsp;; l’utilisateur est invité à les consulter régulièrement.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">6. Droit applicable</h2>
+                <p class="article-body-m">Les CGU sont soumises au droit français. En cas de litige, les tribunaux français sont seuls compétents.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span class="footnote muted">© 2026 EnBref</span>
+            <nav class="footer-links footnote" aria-label="Liens du site">
+                <a href="./privacy-policy.html">Confidentialité</a>
+                <a href="./terms-of-use.html">CGU</a>
+                <a href="./legal-notice.html">Mentions légales</a>
+                <a href="./about-us.html">À propos</a>
+                <a href="./support.html">Support</a>
+                <a href="https://mastodon.social/@enbref" target="_blank" rel="noopener noreferrer">Mastodon</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

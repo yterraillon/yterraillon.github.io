@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mentions légales — EnBref</title>
+    <meta name="description" content="Mentions légales de l’application et du site EnBref.">
+    <script>
+        // Clair ou Sombre, suivi automatiquement : tokens.css bascule sur data-theme.
+        (() => {
+            const dark = window.matchMedia("(prefers-color-scheme: dark)");
+            const apply = () => document.documentElement.dataset.theme = dark.matches ? "dark" : "light";
+            apply();
+            dark.addEventListener("change", apply);
+        })();
+    </script>
+    <link rel="stylesheet" href="./design-system/tokens.css">
+    <link rel="stylesheet" href="./design-system/bundle.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./images/favicons/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="./images/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body>
+    <header class="site-bar">
+        <div class="container">
+            <a class="brand headline" href="./index.html">
+                <img src="./images/favicons/apple-touch-icon.png" alt="" width="36" height="36">
+                EnBref
+            </a>
+            <nav class="site-nav control" aria-label="Navigation principale">
+                <a class="nav-optional" href="./index.html#fonctionnalites">Fonctionnalités</a>
+                <a href="./support.html">Support</a>
+                <span class="soon soon--small footnote nav-optional">Bientôt sur l’App Store</span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container container--narrow">
+            <div class="page-head">
+                <h1 class="large-title">Mentions légales</h1>
+            </div>
+            <section class="card prose">
+                <h2 class="headline">Informations légales</h2>
+                <p class="article-body-m">Conformément à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique (LCEN), voici les mentions légales d’EnBref&nbsp;:</p>
+                <ul>
+                    <li class="article-body-m"><strong>Éditeur&nbsp;:</strong> Yann Terraillon, éditeur indépendant à titre personnel.</li>
+                    <li class="article-body-m"><strong>Contact&nbsp;:</strong> <a href="mailto:support@enbref.app">support@enbref.app</a></li>
+                    <li class="article-body-m"><strong>Hébergement de l’application&nbsp;:</strong> Apple (App Store).</li>
+                    <li class="article-body-m"><strong>Hébergement du site&nbsp;:</strong> GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</li>
+                </ul>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">Vie privée</h2>
+                <p class="article-body-m">EnBref ne collecte aucune donnée personnelle à des fins publicitaires ou de profilage.</p>
+                <p class="article-body-m">Pour toute question relative à la vie privée ou au contenu, vous pouvez nous écrire à l’adresse ci-dessus.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span class="footnote muted">© 2026 EnBref</span>
+            <nav class="footer-links footnote" aria-label="Liens du site">
+                <a href="./privacy-policy.html">Confidentialité</a>
+                <a href="./terms-of-use.html">CGU</a>
+                <a href="./legal-notice.html">Mentions légales</a>
+                <a href="./about-us.html">À propos</a>
+                <a href="./support.html">Support</a>
+                <a href="https://mastodon.social/@enbref" target="_blank" rel="noopener noreferrer">Mastodon</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

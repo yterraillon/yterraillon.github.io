@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Politique de confidentialité — EnBref</title>
+    <meta name="description" content="Politique de confidentialité de l’application et du site EnBref.">
+    <script>
+        // Clair ou Sombre, suivi automatiquement : tokens.css bascule sur data-theme.
+        (() => {
+            const dark = window.matchMedia("(prefers-color-scheme: dark)");
+            const apply = () => document.documentElement.dataset.theme = dark.matches ? "dark" : "light";
+            apply();
+            dark.addEventListener("change", apply);
+        })();
+    </script>
+    <link rel="stylesheet" href="./design-system/tokens.css">
+    <link rel="stylesheet" href="./design-system/bundle.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./images/favicons/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="./images/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body>
+    <header class="site-bar">
+        <div class="container">
+            <a class="brand headline" href="./index.html">
+                <img src="./images/favicons/apple-touch-icon.png" alt="" width="36" height="36">
+                EnBref
+            </a>
+            <nav class="site-nav control" aria-label="Navigation principale">
+                <a class="nav-optional" href="./index.html#fonctionnalites">Fonctionnalités</a>
+                <a href="./support.html">Support</a>
+                <span class="soon soon--small footnote nav-optional">Bientôt sur l’App Store</span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container container--narrow">
+            <div class="page-head">
+                <h1 class="large-title">Politique de confidentialité</h1>
+                <p class="footnote muted">Dernière mise à jour&nbsp;: 8 novembre 2026</p>
+            </div>
+            <section class="card prose">
+                <h2 class="headline">1. Données collectées</h2>
+                <p class="article-body-m">L’application EnBref ne collecte aucune donnée personnelle. Elle fonctionne sans compte ni inscription. Vos réglages, comme l’heure de notification, restent sur votre appareil.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">2. Site web</h2>
+                <p class="article-body-m">Ce site est hébergé par GitHub Pages. GitHub peut conserver des journaux techniques, dont votre adresse IP, pour assurer la sécurité du service. Le site ne dépose aucun cookie et n’utilise aucun outil de mesure d’audience.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">3. Formulaire de support</h2>
+                <p class="article-body-m">Le formulaire de la page Support est fourni par Tally. Seules les informations que vous y saisissez sont transmises, et elles ne servent qu’à vous répondre.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">4. Utilisation des données</h2>
+                <p class="article-body-m">Aucune donnée n’est utilisée à des fins publicitaires, ni partagée avec des tiers sans votre consentement.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">5. Vos droits</h2>
+                <p class="article-body-m">Conformément au Règlement général sur la protection des données (RGPD), vous pouvez demander l’accès, la rectification ou la suppression des informations que vous nous avez transmises via le formulaire de support.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">6. Contact</h2>
+                <p class="article-body-m">Pour toute question concernant la confidentialité&nbsp;: <a href="mailto:support@enbref.app">support@enbref.app</a>.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span class="footnote muted">© 2026 EnBref</span>
+            <nav class="footer-links footnote" aria-label="Liens du site">
+                <a href="./privacy-policy.html">Confidentialité</a>
+                <a href="./terms-of-use.html">CGU</a>
+                <a href="./legal-notice.html">Mentions légales</a>
+                <a href="./about-us.html">À propos</a>
+                <a href="./support.html">Support</a>
+                <a href="https://mastodon.social/@enbref" target="_blank" rel="noopener noreferrer">Mastodon</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

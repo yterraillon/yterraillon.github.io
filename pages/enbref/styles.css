@@ -1,0 +1,256 @@
+/* EnBref — site vitrine.
+   Mise en page du site uniquement : couleurs, espacements, rayons et typo viennent de
+   design-system/tokens.css et design-system/bundle.css. Aucune valeur de couleur en dur ici. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+    margin: 0;
+    background: var(--bg-grouped);
+    color: var(--label);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, p, ul, ol { margin: 0; }
+h1, h2, h3, p { text-wrap: pretty; }
+img { display: block; max-width: 100%; height: auto; }
+
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; border-radius: var(--radius-xs); }
+
+.muted { color: var(--label-secondary); }
+
+.container {
+    width: 100%;
+    max-width: var(--content-width-table);
+    margin: 0 auto;
+    padding: 0 var(--space-16);
+}
+
+.container--narrow { max-width: var(--content-width-form); }
+
+/* ---------- Barre de navigation ---------- */
+
+.site-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--material-bar);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-bottom: var(--hairline) solid var(--separator);
+}
+
+.site-bar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-16);
+    min-height: var(--row-height);
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-8);
+    color: var(--label);
+    text-decoration: none;
+}
+
+.brand img {
+    width: var(--brand-icon-size);
+    height: var(--brand-icon-size);
+    border-radius: var(--radius-md);
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-20);
+}
+
+.site-nav a {
+    color: var(--label-secondary);
+    text-decoration: none;
+}
+
+.site-nav a:hover { color: var(--label); }
+
+.site-nav .nav-optional { display: none; }
+
+/* ---------- Pastille « Bientôt sur l'App Store » ---------- */
+
+.soon {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-8);
+    height: var(--button-height);
+    padding: 0 var(--space-20);
+    border-radius: var(--radius-full);
+    background: var(--accent);
+    color: var(--on-accent);
+}
+
+.soon svg { width: var(--space-20); height: var(--space-20); fill: currentColor; }
+
+.soon--small {
+    height: auto;
+    padding: var(--space-4) var(--space-12);
+}
+
+/* ---------- Sections ---------- */
+
+main { padding-bottom: var(--space-36); }
+
+.section { padding: var(--space-36) 0; }
+
+.eyebrow-label {
+    display: block;
+    color: var(--label-secondary);
+    text-transform: uppercase;
+    margin-bottom: var(--space-8);
+}
+
+.section-title { margin-bottom: var(--space-20); }
+
+.card {
+    background: var(--surface);
+    border-radius: var(--radius-card);
+    padding: var(--space-18);
+}
+
+.card + .card { margin-top: var(--space-12); }
+
+.card h2, .card h3 { margin-bottom: var(--space-8); }
+.card p + p, .card p + ul, .card ul + p { margin-top: var(--space-8); }
+.card ul { padding-left: var(--space-20); color: var(--label-body); }
+.card li + li { margin-top: var(--space-4); }
+
+.grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-12); }
+.grid > .card + .card { margin-top: 0; }
+ol.grid { list-style: none; margin: 0; padding: 0; }
+
+/* ---------- Hero ---------- */
+
+.hero { padding: var(--space-36) 0; }
+
+.hero .container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-36);
+    align-items: center;
+}
+
+.hero-content { display: grid; gap: var(--space-20); justify-items: start; }
+
+.hero-title em { font-style: normal; color: var(--label-secondary); }
+
+.hero-text { color: var(--label-body); }
+
+.phone {
+    justify-self: center;
+    width: calc(var(--tile-min-width) + var(--space-36));
+    max-width: 100%;
+    padding: var(--space-8);
+    background: var(--surface);
+    border-radius: var(--radius-player);
+    box-shadow: var(--shadow-player);
+}
+
+.phone img { border-radius: calc(var(--radius-player) - var(--space-8)); }
+
+/* ---------- Problème / solution, fonctionnalités, étapes ---------- */
+
+.statement em { font-style: normal; color: var(--label-secondary); }
+
+.feature-icon {
+    width: var(--tap-target);
+    height: var(--tap-target);
+    display: grid;
+    place-items: center;
+    margin-bottom: var(--space-12);
+    border-radius: var(--radius-lg);
+    background: var(--fill-tertiary);
+    color: var(--label);
+}
+
+.feature-icon svg { width: var(--space-26); height: var(--space-26); }
+
+.step-number {
+    display: block;
+    margin-bottom: var(--space-8);
+    color: var(--label-secondary);
+    font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Appel final ---------- */
+
+.final-cta {
+    display: grid;
+    gap: var(--space-16);
+    justify-items: center;
+    text-align: center;
+    padding: var(--space-36) var(--space-18);
+}
+
+/* ---------- Pages de texte (légales, à propos) ---------- */
+
+.page-head { padding: var(--space-36) 0 var(--space-20); }
+.page-head .large-title { margin-bottom: var(--space-8); }
+.page-head + p { margin-bottom: var(--space-20); }
+
+.prose p, .prose li { color: var(--label-body); }
+
+/* ---------- Support ---------- */
+
+.support-form {
+    width: 100%;
+    min-height: calc(var(--content-width-form) + var(--space-36) * 4);
+    border: 0;
+}
+
+/* ---------- Pied de page ---------- */
+
+.site-footer {
+    border-top: var(--hairline) solid var(--separator);
+    padding: var(--space-26) 0;
+}
+
+.site-footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-16);
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-8) var(--space-20);
+}
+
+.footer-links a {
+    color: var(--label-secondary);
+    text-decoration: none;
+}
+
+.footer-links a:hover { color: var(--label); }
+
+/* ---------- Écrans larges ---------- */
+
+@media (min-width: 768px) {
+    .site-nav .nav-optional { display: inline-flex; }
+    .hero { padding: calc(var(--space-36) * 2) 0; }
+    .hero .container { grid-template-columns: minmax(0, 1fr) auto; }
+    .grid--2 { grid-template-columns: repeat(2, 1fr); }
+    .grid--3 { grid-template-columns: repeat(3, 1fr); }
+    .final-cta { padding: calc(var(--space-36) * 2) var(--space-36); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+}

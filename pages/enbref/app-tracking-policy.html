@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Politique de suivi — EnBref</title>
+    <meta name="description" content="Politique de suivi de l’application EnBref.">
+    <script>
+        // Clair ou Sombre, suivi automatiquement : tokens.css bascule sur data-theme.
+        (() => {
+            const dark = window.matchMedia("(prefers-color-scheme: dark)");
+            const apply = () => document.documentElement.dataset.theme = dark.matches ? "dark" : "light";
+            apply();
+            dark.addEventListener("change", apply);
+        })();
+    </script>
+    <link rel="stylesheet" href="./design-system/tokens.css">
+    <link rel="stylesheet" href="./design-system/bundle.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./images/favicons/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="./images/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body>
+    <header class="site-bar">
+        <div class="container">
+            <a class="brand headline" href="./index.html">
+                <img src="./images/favicons/apple-touch-icon.png" alt="" width="36" height="36">
+                EnBref
+            </a>
+            <nav class="site-nav control" aria-label="Navigation principale">
+                <a class="nav-optional" href="./index.html#fonctionnalites">Fonctionnalités</a>
+                <a href="./support.html">Support</a>
+                <span class="soon soon--small footnote nav-optional">Bientôt sur l’App Store</span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container container--narrow">
+            <div class="page-head">
+                <h1 class="large-title">Politique de suivi</h1>
+                <p class="footnote muted">Dernière mise à jour&nbsp;: 8 novembre 2026</p>
+            </div>
+            <section class="card prose">
+                <h2 class="headline">1. Aucun suivi inter-applications</h2>
+                <p class="article-body-m">EnBref ne suit aucune activité vous concernant à travers d’autres applications ou sites web tiers. Cela signifie que&nbsp;:</p>
+                <ul>
+                    <li class="article-body-m">aucune information n’est collectée pour établir un profil publicitaire&nbsp;;</li>
+                    <li class="article-body-m">aucun identifiant publicitaire (IDFA) n’est utilisé&nbsp;;</li>
+                    <li class="article-body-m">aucun système de traçage ou d’analyse tiers n’est intégré.</li>
+                </ul>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">2. Pas de demande d’autorisation de suivi</h2>
+                <p class="article-body-m">Puisqu’aucune activité de suivi n’est pratiquée, l’application ne vous demande pas l’autorisation de vous suivre via la fenêtre App Tracking Transparency d’iOS.</p>
+            </section>
+            <section class="card prose">
+                <h2 class="headline">3. Engagement pour la vie privée</h2>
+                <p class="article-body-m">Si, à l’avenir, une fonctionnalité impliquant du suivi venait à être introduite, vous en seriez informé au préalable, et votre consentement serait requis via les mécanismes standards fournis par iOS.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span class="footnote muted">© 2026 EnBref</span>
+            <nav class="footer-links footnote" aria-label="Liens du site">
+                <a href="./privacy-policy.html">Confidentialité</a>
+                <a href="./terms-of-use.html">CGU</a>
+                <a href="./legal-notice.html">Mentions légales</a>
+                <a href="./about-us.html">À propos</a>
+                <a href="./support.html">Support</a>
+                <a href="https://mastodon.social/@enbref" target="_blank" rel="noopener noreferrer">Mastodon</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
