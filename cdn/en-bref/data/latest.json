@@ -5,12 +5,12 @@
       "category": "politics",
       "briefs": [
         {
-          "title": "Édouard Philippe refuse la primaire de la droite et du centre",
-          "summary": "Édouard Philippe rejette une primaire pour 2027, alors que 1 000 élus locaux réclament une primaire ouverte pour éviter un second tour Mélenchon-Le Pen."
+          "title": "Présidentielle 2027 : le débat sur une primaire s'intensifie",
+          "summary": "Édouard Philippe refuse une primaire de la droite et du centre, tandis que 1 000 élus locaux en réclament une ouverte pour éviter un second tour Mélenchon-Le Pen."
         },
         {
           "title": "Le RN dit peiner à financer sa campagne",
-          "summary": "Jean-Philippe Tanguy déplore qu'aucune banque française n'ait accepté de prêter au RN pour la campagne présidentielle de Marine Le Pen."
+          "summary": "Jean-Philippe Tanguy affirme qu'aucune banque française n'a voulu prêter d'argent pour la campagne présidentielle de Marine Le Pen."
         }
       ]
     },
@@ -18,12 +18,12 @@
       "category": "international",
       "briefs": [
         {
-          "title": "Guerre en Ukraine : l'Estonie ferme sa frontière avec la Russie",
-          "summary": "L'Estonie ferme sa frontière avec la Russie, l'UE sanctionne la milliardaire Tatiana Kim et des soldats français sont présents en Ukraine dans le cadre de l'opération Volia."
+          "title": "Guerre en Ukraine : l'UE sanctionne et l'Estonie ferme sa frontière",
+          "summary": "L'UE sanctionne Tatiana Kim, femme la plus riche de Russie, l'Estonie ferme sa frontière avec la Russie et des soldats français sont présents en Ukraine dans le cadre de l'opération Volia."
         },
         {
-          "title": "Rencontre Trump, Xi et Poutine jeudi",
-          "summary": "Les dirigeants américain, chinois et russe doivent discuter de la « paix mondiale » lors d'une rencontre prévue jeudi."
+          "title": "Trump, Xi et Poutine se rencontrent jeudi",
+          "summary": "Les dirigeants américain, chinois et russe doivent discuter de la « paix mondiale » lors de leur rencontre prévue jeudi."
         }
       ]
     },
@@ -31,12 +31,12 @@
       "category": "economy",
       "briefs": [
         {
-          "title": "Grève et mobilisation le 17 novembre",
-          "summary": "Enseignants, étudiants et lycéens se mobilisent de nouveau pour réclamer davantage de moyens, avec des perturbations attendues dans les transports."
+          "title": "Les prix des carburants reculent",
+          "summary": "Le gazole atteint son plus bas niveau depuis mi-juillet et le litre d'essence repasse sous la barre des 2 euros."
         },
         {
           "title": "Les bus à hydrogène en question",
-          "summary": "Le déploiement des bus à hydrogène dans les transports publics soulève des difficultés, qui interrogent sur l'avenir de cette technologie."
+          "summary": "Le développement des bus à hydrogène dans les transports publics se heurte à plusieurs difficultés, dont les raisons sont examinées."
         }
       ]
     },
@@ -44,12 +44,12 @@
       "category": "society",
       "briefs": [
         {
-          "title": "Colère lycéenne : un ministre hué à Nantes",
-          "summary": "Le ministre de l'Éducation a été hué lors d'une visite chaotique à Nantes, tandis que la préfecture de police interdit les rassemblements devant plusieurs lycées et universités parisiens."
+          "title": "Mobilisation lycéenne et enseignante avant la grève du 17 novembre",
+          "summary": "Enseignants, étudiants et lycéens se mobilisent pour plus de moyens ; à Nantes, le ministre Édouard Geffray a été hué et des rassemblements sont interdits à Paris."
         },
         {
-          "title": "Pierre Ménès jugé pour harcèlement et agressions sexuelles",
-          "summary": "L'ex-chroniqueur sportif Pierre Ménès est jugé pour harcèlement et agressions sexuelles sur trois femmes."
+          "title": "Infertilité : le gouvernement écrit aux Français de 29 ans",
+          "summary": "Comme annoncé, le gouvernement envoie ce lundi un courrier aux Français âgés de 29 ans dans le cadre de la lutte contre l'infertilité."
         }
       ]
     },
@@ -57,12 +57,12 @@
       "category": "technologyAndScience",
       "briefs": [
         {
-          "title": "Les « robots tueurs » en débat",
-          "summary": "Les armes autonomes létales posent la question de confier des décisions de vie ou de mort à des machines."
+          "title": "Les armes autonomes létales en débat",
+          "summary": "Les « robots tueurs », armes capables de décider seules de vie ou de mort, soulèvent des questions éthiques majeures."
         },
         {
           "title": "L'Allemagne renforce ses services secrets",
-          "summary": "Face aux sabotages d'armements et aux menaces numériques, Berlin muscle ses services de renseignement et ses capacités de contre-attaque."
+          "summary": "Face aux menaces extérieures comme les sabotages d'armements, Berlin muscle ses services de renseignement, notamment par des contre-attaques numériques."
         }
       ]
     },
@@ -70,12 +70,12 @@
       "category": "sport",
       "briefs": [
         {
-          "title": "Débuts réussis pour Kroupi chez les Bleus",
-          "summary": "À 20 ans, Eli Junior Kroupi a vécu des débuts qu'il juge « incroyables » avec l'équipe de France lors du match face à la Turquie."
+          "title": "Philippe Diallo candidat à la présidence de la Fifa",
+          "summary": "Soutenu par l'UEFA, le président de la FFF Philippe Diallo se présente face à Gianni Infantino pour la présidence de la Fifa."
         },
         {
-          "title": "Alcaraz démarre fort au Masters",
-          "summary": "Carlos Alcaraz s'est imposé sans difficulté face à Frances Tiafoe pour son entrée en lice au Masters de tennis."
+          "title": "Débuts remarqués de Kroupi avec les Bleus",
+          "summary": "À 20 ans, Eli Junior Kroupi a vécu des débuts qu'il qualifie d'« incroyables » en équipe de France lors du match contre la Turquie."
         }
       ]
     },
@@ -83,12 +83,12 @@
       "category": "culture",
       "briefs": [
         {
-          "title": "Gérard Depardieu renonce à son appel",
-          "summary": "L'acteur s'est désisté de l'appel de sa condamnation et présente ses « excuses » aux victimes."
+          "title": "Robert Pattinson sera le nouveau James Bond",
+          "summary": "L'acteur britannique Robert Pattinson a été choisi pour incarner le prochain 007."
         },
         {
-          "title": "Audrey Fleurot et « La Comtesse de Monte-Cristo »",
-          "summary": "L'actrice qualifie son rôle dans « La Comtesse de Monte-Cristo » de « cadeau empoisonné »."
+          "title": "Gérard Depardieu renonce à faire appel",
+          "summary": "L'acteur s'est désisté de l'appel de sa condamnation et a présenté ses « excuses » aux victimes."
         }
       ]
     }
