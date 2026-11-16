@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-16",
+  "categories": [
+    {
+      "category": "politics",
+      "briefs": [
+        {
+          "title": "Édouard Philippe refuse la primaire de la droite et du centre",
+          "summary": "Édouard Philippe rejette l'idée d'une primaire pour 2027, alors que 1 000 élus locaux en réclament une ouverte pour éviter un second tour Mélenchon-Le Pen."
+        },
+        {
+          "title": "Le RN dit peiner à financer la campagne de Marine Le Pen",
+          "summary": "Jean-Philippe Tanguy affirme qu'aucune banque française n'a voulu prêter au RN pour la campagne présidentielle de Marine Le Pen en 2027."
+        }
+      ]
+    },
+    {
+      "category": "international",
+      "briefs": [
+        {
+          "title": "Trump, Xi et Poutine se rencontrent jeudi",
+          "summary": "Les trois dirigeants doivent discuter de la « paix mondiale », tandis que l'UE sanctionne Tatiana Kim et que des soldats français sont présents en Ukraine dans le cadre de l'opération Volia."
+        },
+        {
+          "title": "L'Estonie ferme sa frontière avec la Russie",
+          "summary": "Tallinn annonce la fermeture de sa frontière avec la Russie, affirmant ne pas vouloir se laisser intimider, sur fond de menaces croissantes en Europe."
+        }
+      ]
+    },
+    {
+      "category": "economy",
+      "briefs": [
+        {
+          "title": "Les cours particuliers en plein essor",
+          "summary": "Dans un contexte de colère lycéenne, de nombreuses familles financent des cours particuliers pour l'avenir de leurs enfants, un marché qui semble en plein boom."
+        },
+        {
+          "title": "Les bus à hydrogène en question",
+          "summary": "Les bus à hydrogène, présentés comme une alternative pour les transports publics, posent plusieurs problèmes qui interrogent sur leur développement."
+        }
+      ]
+    },
+    {
+      "category": "society",
+      "briefs": [
+        {
+          "title": "Lycéens, étudiants et enseignants mobilisés",
+          "summary": "Une nouvelle journée de grève est prévue le 17 novembre pour davantage de moyens, alors que la préfecture interdit les rassemblements devant plusieurs lycées et universités à Paris."
+        },
+        {
+          "title": "Pierre Ménès jugé pour agressions sexuelles",
+          "summary": "L'ancien consultant football Pierre Ménès est jugé pour harcèlement et agressions sexuelles sur trois femmes."
+        }
+      ]
+    },
+    {
+      "category": "technologyAndScience",
+      "briefs": [
+        {
+          "title": "Le débat sur les armes autonomes létales",
+          "summary": "Les « robots tueurs » soulèvent des questions éthiques, les décisions de vie ou de mort pouvant être confiées à des machines."
+        }
+      ]
+    },
+    {
+      "category": "sport",
+      "briefs": [
+        {
+          "title": "Débuts réussis de Kroupi avec les Bleus",
+          "summary": "À 20 ans, Eli Junior Kroupi a vécu des débuts qu'il juge « incroyables » avec l'équipe de France lors du match contre la Turquie."
+        },
+        {
+          "title": "Tensions au RC Lens",
+          "summary": "Le propriétaire du RC Lens, Joseph Oughourlian, règle ses comptes avec l'ancien entraîneur Pierre Sage, dénonçant un manque de respect envers le club."
+        }
+      ]
+    },
+    {
+      "category": "culture",
+      "briefs": [
+        {
+          "title": "Depardieu renonce à faire appel",
+          "summary": "Gérard Depardieu s'est désisté de l'appel de sa condamnation et présente ses « excuses » aux victimes."
+        },
+        {
+          "title": "Le spectacle de Guillaume Pley perturbé",
+          "summary": "Des militantes féministes ont perturbé le spectacle du fondateur de Legend, Guillaume Pley, en le qualifiant d'« agresseur »."
+        }
+      ]
+    }
+  ]
+}
