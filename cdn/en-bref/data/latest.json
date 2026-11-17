@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "categories": [
     {
       "category": "politics",
       "briefs": [
         {
-          "title": "Présidentielle 2027 : le débat sur une primaire s'intensifie",
-          "summary": "Édouard Philippe refuse une primaire de la droite et du centre, tandis que 1 000 élus locaux en réclament une ouverte pour éviter un second tour Mélenchon-Le Pen."
+          "title": "Retraites : le projet de Marine Le Pen sous le feu des critiques",
+          "summary": "Le RN propose un départ entre 60 et 62 ans et recourt à la capitalisation ; la droite et le centre dénoncent le projet, qu'Édouard Philippe juge «mensonger, coûteux et antisocial»."
         },
         {
-          "title": "Le RN dit peiner à financer sa campagne",
-          "summary": "Jean-Philippe Tanguy affirme qu'aucune banque française n'a voulu prêter d'argent pour la campagne présidentielle de Marine Le Pen."
+          "title": "Nantes : polémique autour du lycée Nelson Mandela",
+          "summary": "Le fiasco de la réouverture du lycée Nelson Mandela à Nantes tourne au règlement de comptes politique."
         }
       ]
     },
@@ -18,12 +18,12 @@
       "category": "international",
       "briefs": [
         {
-          "title": "Guerre en Ukraine : l'UE sanctionne et l'Estonie ferme sa frontière",
-          "summary": "L'UE sanctionne Tatiana Kim, femme la plus riche de Russie, l'Estonie ferme sa frontière avec la Russie et des soldats français sont présents en Ukraine dans le cadre de l'opération Volia."
+          "title": "Ukraine : le pont de Kertch endommagé",
+          "summary": "Kiev a ciblé pour la deuxième nuit d'affilée le pont reliant la Russie à la Crimée, infligeant de sérieux dommages ; Moscou promet de le restaurer."
         },
         {
-          "title": "Trump, Xi et Poutine se rencontrent jeudi",
-          "summary": "Les dirigeants américain, chinois et russe doivent discuter de la « paix mondiale » lors de leur rencontre prévue jeudi."
+          "title": "Soldats français en Ukraine : Alice Rufo dément toute participation au conflit",
+          "summary": "Alice Rufo juge «absurde» d'affirmer que les soldats français présents en Ukraine participent directement au conflit."
         }
       ]
     },
@@ -31,12 +31,12 @@
       "category": "economy",
       "briefs": [
         {
-          "title": "Les prix des carburants reculent",
-          "summary": "Le gazole atteint son plus bas niveau depuis mi-juillet et le litre d'essence repasse sous la barre des 2 euros."
+          "title": "Des filiales occidentales financent l'effort de guerre russe",
+          "summary": "Auchan, Leroy Merlin, Nestlé : la Russie utilise les filiales d'entreprises occidentales implantées sur son sol pour financer sa guerre en Ukraine."
         },
         {
-          "title": "Les bus à hydrogène en question",
-          "summary": "Le développement des bus à hydrogène dans les transports publics se heurte à plusieurs difficultés, dont les raisons sont examinées."
+          "title": "Le salaire des fonctionnaires décrypté",
+          "summary": "Point d'indice, primes et indemnités : explications sur le fonctionnement de la rémunération des agents de la fonction publique."
         }
       ]
     },
@@ -44,12 +44,12 @@
       "category": "society",
       "briefs": [
         {
-          "title": "Mobilisation lycéenne et enseignante avant la grève du 17 novembre",
-          "summary": "Enseignants, étudiants et lycéens se mobilisent pour plus de moyens ; à Nantes, le ministre Édouard Geffray a été hué et des rassemblements sont interdits à Paris."
+          "title": "Grève du 17 novembre : la justice suspend une interdiction de rassemblements",
+          "summary": "Le jour de la grève, la justice a suspendu l'interdiction de rassemblements autour de certains lycées et universités à Paris."
         },
         {
-          "title": "Infertilité : le gouvernement écrit aux Français de 29 ans",
-          "summary": "Comme annoncé, le gouvernement envoie ce lundi un courrier aux Français âgés de 29 ans dans le cadre de la lutte contre l'infertilité."
+          "title": "Un professeur d'histoire menacé à Paris",
+          "summary": "Un homme a menacé un professeur d'histoire parisien de l'«égorger à la Samuel Paty» ; une plainte a été déposée."
         }
       ]
     },
@@ -57,12 +57,8 @@
       "category": "technologyAndScience",
       "briefs": [
         {
-          "title": "Les armes autonomes létales en débat",
-          "summary": "Les « robots tueurs », armes capables de décider seules de vie ou de mort, soulèvent des questions éthiques majeures."
-        },
-        {
-          "title": "L'Allemagne renforce ses services secrets",
-          "summary": "Face aux menaces extérieures comme les sabotages d'armements, Berlin muscle ses services de renseignement, notamment par des contre-attaques numériques."
+          "title": "Affaire Nvidia : Jensen Huang convoqué au Congrès",
+          "summary": "L'ex-patron de Nvidia, Jensen Huang, sera entendu par le Congrès américain le 1er décembre dans le cadre de l'affaire visant l'entreprise."
         }
       ]
     },
@@ -70,12 +66,8 @@
       "category": "sport",
       "briefs": [
         {
-          "title": "Philippe Diallo candidat à la présidence de la Fifa",
-          "summary": "Soutenu par l'UEFA, le président de la FFF Philippe Diallo se présente face à Gianni Infantino pour la présidence de la Fifa."
-        },
-        {
-          "title": "Débuts remarqués de Kroupi avec les Bleus",
-          "summary": "À 20 ans, Eli Junior Kroupi a vécu des débuts qu'il qualifie d'« incroyables » en équipe de France lors du match contre la Turquie."
+          "title": "JO Alpes 2030 : pas de voitures sur les sites",
+          "summary": "Les voitures seront bannies des lieux des épreuves des Jeux olympiques d'hiver des Alpes françaises en 2030."
         }
       ]
     },
@@ -83,12 +75,8 @@
       "category": "culture",
       "briefs": [
         {
-          "title": "Robert Pattinson sera le nouveau James Bond",
-          "summary": "L'acteur britannique Robert Pattinson a été choisi pour incarner le prochain 007."
-        },
-        {
-          "title": "Gérard Depardieu renonce à faire appel",
-          "summary": "L'acteur s'est désisté de l'appel de sa condamnation et a présenté ses « excuses » aux victimes."
+          "title": "Esclandre d'Anne-Cécile Mailfert sur franceinfo",
+          "summary": "La présidente de la Fondation des Femmes a provoqué un esclandre en direct ; franceinfo a précisé ses liens avec un patron de France Télévisions, elle se dit «humiliée»."
         }
       ]
     }
