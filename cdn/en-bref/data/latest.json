@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "categories": [
     {
       "category": "politics",
       "briefs": [
         {
-          "title": "Présidentielle 2027 : Mélenchon creuse l'écart dans les sondages",
-          "summary": "Plusieurs sondages placent Jean-Luc Mélenchon en tête et au second tour, devant Édouard Philippe talonné par David Lisnard, tandis que des ministres l'accusent d'être un « relais » du Kremlin."
+          "title": "Présidentielle 2027 : la campagne s'anime",
+          "summary": "Marine Le Pen évoque déjà son « premier quinquennat », Manuel Bompard salue le rapprochement de Marine Tondelier avec LFI, et l'Arcom impose le pluralisme aux créateurs de contenus."
         },
         {
-          "title": "Édouard Philippe promet une « rupture » pour relancer sa campagne",
-          "summary": "Le candidat présente de nouvelles mesures sur les casseurs et la fonction publique pour « rétablir l'ordre », alors que Dominique de Villepin prépare son entrée en campagne."
+          "title": "Le siège du RN perquisitionné",
+          "summary": "Des juges d'instruction ont perquisitionné le siège du Rassemblement national dans le cadre de soupçons de violation du secret professionnel."
         }
       ]
     },
@@ -18,12 +18,12 @@
       "category": "international",
       "briefs": [
         {
-          "title": "Sommet Trump-Xi-Poutine sous le regard des analystes",
-          "summary": "La rencontre entre les dirigeants américain, chinois et russe suscite des analyses sur un possible nouvel « ordre mondial », tandis que Pékin pourrait aussi favoriser un face-à-face Trump-Kim Jong-un."
+          "title": "Sommet Xi-Trump-Poutine à Shenzhen",
+          "summary": "Xi Jinping s'est posé en pilier d'un nouvel ordre mondial, et la Chine, les États-Unis et la Russie ont appelé la CPI à ne pas « outrepasser » ses compétences."
         },
         {
-          "title": "Ukraine : nouveau prêt européen de 45 milliards d'euros",
-          "summary": "L'Union européenne va accorder un nouveau prêt de 45 milliards d'euros à Kiev, alors que le débat sur la présence de militaires français en Ukraine se poursuit."
+          "title": "Ukraine : Moscou menace de répliquer",
+          "summary": "La Russie prévient qu'elle répliquera fortement aux frappes ukrainiennes visant le pont de Crimée."
         }
       ]
     },
@@ -31,12 +31,12 @@
       "category": "economy",
       "briefs": [
         {
-          "title": "Découverts autorisés : ce qui change dès vendredi",
-          "summary": "De nouvelles règles sur les autorisations et les montants des découverts bancaires entrent en vigueur ce vendredi."
+          "title": "Introduction en Bourse historique d'Anthropic",
+          "summary": "L'entreprise d'intelligence artificielle Anthropic est valorisée 1 500 milliards de dollars à Wall Street, un pari jugé vertigineux par certains observateurs."
         },
         {
-          "title": "Finances publiques et smic au cœur de la campagne",
-          "summary": "La situation financière de la France est comparée à celle de la Grèce des années 2010, tandis qu'une affirmation de Gabriel Attal sur le niveau du smic français est examinée."
+          "title": "Découverts autorisés : nouvelles règles",
+          "summary": "Les règles encadrant les découverts bancaires autorisés, notamment les autorisations et les montants, changent à partir de ce vendredi."
         }
       ]
     },
@@ -44,12 +44,12 @@
       "category": "society",
       "briefs": [
         {
-          "title": "Des policiers en colère manifestent devant Beauvau",
-          "summary": "Des policiers ont manifesté devant le ministère de l'Intérieur, le syndicat Alliance alertant sur une résilience qui « s'effrite » à force de tirer sur la corde."
+          "title": "Le directeur de la prison d'Aix écroué",
+          "summary": "Soupçonné de détention d'images pédopornographiques, le directeur de la prison d'Aix-Luynes a été mis en examen et écroué ; 31 autres « objectifs » ont été identifiés."
         },
         {
-          "title": "Toulouse : deuxième narchomicide en trois jours",
-          "summary": "Un homme a été abattu dans le quartier de la Reynerie, à Toulouse, deuxième homicide lié au narcotrafic en trois jours dans la ville."
+          "title": "Procès Zecler : réquisitions contre trois policiers",
+          "summary": "Des peines de quatre, cinq et six ans de prison ont été requises contre les trois policiers jugés dans l'affaire Michel Zecler."
         }
       ]
     },
@@ -57,12 +57,12 @@
       "category": "technologyAndScience",
       "briefs": [
         {
-          "title": "Voyager 1 bientôt à une journée-lumière de la Terre",
-          "summary": "La sonde Voyager 1, engin humain le plus lointain jamais envoyé, approche d'une distance d'une journée-lumière."
+          "title": "Cyberattaque assistée par IA contre la Commission européenne",
+          "summary": "La Commission européenne a été visée par une cyberattaque assistée par l'IA, des données personnelles ayant potentiellement été compromises."
         },
         {
-          "title": "Vers la fin des IA gratuites ?",
-          "summary": "La question de la fin de l'accès gratuit aux intelligences artificielles se pose alors que de nombreux utilisateurs en sont devenus dépendants."
+          "title": "Lecornu alerte sur une menace cyber « inédite »",
+          "summary": "Sébastien Lecornu juge la menace des cyberattaques à un niveau « grave et inédit » et estime que « rien ne laisse à penser que les choses vont s'arranger »."
         }
       ]
     },
@@ -70,8 +70,8 @@
       "category": "sport",
       "briefs": [
         {
-          "title": "Fifa : Infantino en route vers un nouveau mandat",
-          "summary": "Gianni Infantino semble assuré d'être réélu à la tête de la Fifa en mars 2027 malgré les critiques, notamment portées par l'ONG FairSquare."
+          "title": "Marathon : Naum Jepchirchir disqualifiée",
+          "summary": "Un geste de solidarité en pleine course a valu une disqualification à Naum Jepchirchir, qui perd 10 000 dollars de gains."
         }
       ]
     },
@@ -79,12 +79,12 @@
       "category": "culture",
       "briefs": [
         {
-          "title": "Julio Iglesias visé par une enquête",
-          "summary": "Une enquête a été ouverte contre le chanteur Julio Iglesias après des plaintes pour agressions sexuelles."
+          "title": "GTA 6 enfin disponible",
+          "summary": "Présenté comme le « jeu du siècle », GTA 6 est sorti et vise tous les records, tandis que son héroïne Lucia Caminos est critiquée par une partie des joueurs."
         },
         {
-          "title": "GTA 6, événement culturel de la décennie ?",
-          "summary": "Le jeu vidéo GTA 6 suscite un engouement majeur, mais aussi des critiques d'une partie des joueurs envers son héroïne Lucia Caminos."
+          "title": "Miss France 2027 : les portraits dévoilés",
+          "summary": "Les portraits officiels des candidates à l'élection de Miss France 2027 ont été dévoilés."
         }
       ]
     }
