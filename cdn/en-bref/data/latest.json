@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "categories": [
     {
       "category": "politics",
       "briefs": [
         {
-          "title": "Présidentielle 2027 : la campagne s'anime",
-          "summary": "Marine Le Pen évoque déjà son « premier quinquennat », Manuel Bompard salue le rapprochement de Marine Tondelier avec LFI, et l'Arcom impose le pluralisme aux créateurs de contenus."
+          "title": "Présidentielle 2027 : la gauche se divise autour de Mélenchon",
+          "summary": "Après la main tendue de Marine Tondelier à Jean-Luc Mélenchon, Yannick Jadot et Iordanoff quittent les Écologistes, tandis qu'un sondage place Mélenchon troisième dans deux scénarios."
         },
         {
           "title": "Le siège du RN perquisitionné",
-          "summary": "Des juges d'instruction ont perquisitionné le siège du Rassemblement national dans le cadre de soupçons de violation du secret professionnel."
+          "summary": "Le siège du Rassemblement national a été perquisitionné pour des soupçons de violation du secret professionnel, le préfet Hugues Moutouh étant soupçonné d'avoir été un « indic » du parti."
         }
       ]
     },
@@ -18,12 +18,12 @@
       "category": "international",
       "briefs": [
         {
-          "title": "Sommet Xi-Trump-Poutine à Shenzhen",
-          "summary": "Xi Jinping s'est posé en pilier d'un nouvel ordre mondial, et la Chine, les États-Unis et la Russie ont appelé la CPI à ne pas « outrepasser » ses compétences."
+          "title": "Ukraine : frappes meurtrières sur Kiev",
+          "summary": "Des frappes russes ont fait huit morts et touché trois ponts à Kiev, deux missiles tombant en Pologne ; Paris demande une réunion du Conseil de sécurité de l'ONU."
         },
         {
-          "title": "Ukraine : Moscou menace de répliquer",
-          "summary": "La Russie prévient qu'elle répliquera fortement aux frappes ukrainiennes visant le pont de Crimée."
+          "title": "Le sommet de Shenzhen divise la presse",
+          "summary": "Le sommet de Shenzhen en Chine, présenté comme un symbole du recul américain sous Donald Trump, suscite des commentaires contrastés sur ses résultats jugés maigres."
         }
       ]
     },
@@ -31,12 +31,12 @@
       "category": "economy",
       "briefs": [
         {
-          "title": "Introduction en Bourse historique d'Anthropic",
-          "summary": "L'entreprise d'intelligence artificielle Anthropic est valorisée 1 500 milliards de dollars à Wall Street, un pari jugé vertigineux par certains observateurs."
+          "title": "Grève le 1er décembre pour les salaires",
+          "summary": "Les syndicats appellent la fonction publique et le secteur privé à une journée de grève le mardi 1er décembre pour réclamer des hausses de salaires."
         },
         {
-          "title": "Découverts autorisés : nouvelles règles",
-          "summary": "Les règles encadrant les découverts bancaires autorisés, notamment les autorisations et les montants, changent à partir de ce vendredi."
+          "title": "L'encadrement des loyers prolongé de deux ans",
+          "summary": "Le Parlement a prolongé pour deux ans l'encadrement des loyers, une mesure qui concerne plus d'un million de locataires."
         }
       ]
     },
@@ -44,12 +44,12 @@
       "category": "society",
       "briefs": [
         {
-          "title": "Le directeur de la prison d'Aix écroué",
-          "summary": "Soupçonné de détention d'images pédopornographiques, le directeur de la prison d'Aix-Luynes a été mis en examen et écroué ; 31 autres « objectifs » ont été identifiés."
+          "title": "Gilets jaunes et ultragauche veulent relancer la colère",
+          "summary": "Des messages appelant à des soulèvements et à un « Black Friday » du pillage circulent, les « gilets jaunes » et l'ultragauche voulant relancer le mouvement social."
         },
         {
-          "title": "Procès Zecler : réquisitions contre trois policiers",
-          "summary": "Des peines de quatre, cinq et six ans de prison ont été requises contre les trois policiers jugés dans l'affaire Michel Zecler."
+          "title": "Un cargo échoué sur le littoral des Landes",
+          "summary": "Un cargo s'est échoué sur la côte landaise, où une opération d'évacuation est en cours."
         }
       ]
     },
@@ -57,12 +57,12 @@
       "category": "technologyAndScience",
       "briefs": [
         {
-          "title": "Cyberattaque assistée par IA contre la Commission européenne",
-          "summary": "La Commission européenne a été visée par une cyberattaque assistée par l'IA, des données personnelles ayant potentiellement été compromises."
+          "title": "Artex, l'IA chinoise qui a piraté la Commission européenne",
+          "summary": "Un logiciel d'intelligence artificielle chinois baptisé Artex aurait été utilisé pour pirater la Commission européenne."
         },
         {
-          "title": "Lecornu alerte sur une menace cyber « inédite »",
-          "summary": "Sébastien Lecornu juge la menace des cyberattaques à un niveau « grave et inédit » et estime que « rien ne laisse à penser que les choses vont s'arranger »."
+          "title": "La France intensifie son réarmement",
+          "summary": "Obus, fusils, missiles et drones : la France accélère son « effort de réarmement » en augmentant sa production d'équipements militaires."
         }
       ]
     },
@@ -70,8 +70,8 @@
       "category": "sport",
       "briefs": [
         {
-          "title": "Marathon : Naum Jepchirchir disqualifiée",
-          "summary": "Un geste de solidarité en pleine course a valu une disqualification à Naum Jepchirchir, qui perd 10 000 dollars de gains."
+          "title": "Ligue des nations : les Bleus face à l'Espagne",
+          "summary": "L'équipe de France de Zinédine Zidane affrontera l'Espagne, championne du monde, en quart de finale de la Ligue des nations."
         }
       ]
     },
@@ -79,12 +79,12 @@
       "category": "culture",
       "briefs": [
         {
-          "title": "GTA 6 enfin disponible",
-          "summary": "Présenté comme le « jeu du siècle », GTA 6 est sorti et vise tous les records, tandis que son héroïne Lucia Caminos est critiquée par une partie des joueurs."
+          "title": "Miss France 2027 : les candidates dévoilées",
+          "summary": "Les portraits officiels des candidates à Miss France 2027 ont été publiés, en plein voyage de préparation et après le traditionnel test de culture générale."
         },
         {
-          "title": "Miss France 2027 : les portraits dévoilés",
-          "summary": "Les portraits officiels des candidates à l'élection de Miss France 2027 ont été dévoilés."
+          "title": "Ciotti provoque la colère à l'Opéra de Nice",
+          "summary": "Des propos d'Éric Ciotti, selon qui « on ne paie pas un opéra pour faire son cirque », ont provoqué la colère des syndicats de l'Opéra de Nice."
         }
       ]
     }
