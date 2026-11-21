@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "categories": [
     {
       "category": "politics",
       "briefs": [
         {
-          "title": "Présidentielle 2027 : la gauche se divise autour de Mélenchon",
-          "summary": "Après la main tendue de Marine Tondelier à Jean-Luc Mélenchon, Yannick Jadot et Iordanoff quittent les Écologistes, tandis qu'un sondage place Mélenchon troisième dans deux scénarios."
+          "title": "Présidentielle 2027 : Villepin candidat, Le Pen en tête",
+          "summary": "Dominique de Villepin se déclare candidat à la présidentielle 2027, tandis que Marine Le Pen reste en tête des sondages et que la primaire de la droite et du centre patine."
         },
         {
-          "title": "Le siège du RN perquisitionné",
-          "summary": "Le siège du Rassemblement national a été perquisitionné pour des soupçons de violation du secret professionnel, le préfet Hugues Moutouh étant soupçonné d'avoir été un « indic » du parti."
+          "title": "Colère sociale : mobilisation en baisse à Paris",
+          "summary": "Le cortège parisien est parti de la place de la République sur fond de mobilisation en recul, alors qu'une enquête vise des policiers pour violences et agression sexuelle lors d'une manifestation."
         }
       ]
     },
@@ -18,12 +18,12 @@
       "category": "international",
       "briefs": [
         {
-          "title": "Ukraine : frappes meurtrières sur Kiev",
-          "summary": "Des frappes russes ont fait huit morts et touché trois ponts à Kiev, deux missiles tombant en Pologne ; Paris demande une réunion du Conseil de sécurité de l'ONU."
+          "title": "Moyen-Orient : le Qatar en médiateur à Téhéran",
+          "summary": "Une délégation qatarie s'est rendue à Téhéran pour des négociations entre l'Iran et les États-Unis dans le contexte de la guerre au Moyen-Orient."
         },
         {
-          "title": "Le sommet de Shenzhen divise la presse",
-          "summary": "Le sommet de Shenzhen en Chine, présenté comme un symbole du recul américain sous Donald Trump, suscite des commentaires contrastés sur ses résultats jugés maigres."
+          "title": "Attaque de drone contre un cargo russe",
+          "summary": "L'armée finlandaise a détecté une « attaque de drone » visant un cargo russe dans le golfe de Finlande."
         }
       ]
     },
@@ -31,12 +31,12 @@
       "category": "economy",
       "briefs": [
         {
-          "title": "Grève le 1er décembre pour les salaires",
-          "summary": "Les syndicats appellent la fonction publique et le secteur privé à une journée de grève le mardi 1er décembre pour réclamer des hausses de salaires."
+          "title": "Wall Street secouée par une chute historique de la tech",
+          "summary": "La chute historique des valeurs technologiques provoque la panique à Wall Street et fait craindre un krach boursier."
         },
         {
-          "title": "L'encadrement des loyers prolongé de deux ans",
-          "summary": "Le Parlement a prolongé pour deux ans l'encadrement des loyers, une mesure qui concerne plus d'un million de locataires."
+          "title": "Aide aux commerces dégradés lors des émeutes",
+          "summary": "Un guichet d'aide allant jusqu'à 10 000 euros est ouvert pour les commerces dégradés lors des violences urbaines, dont les commerçants racontent le traumatisme."
         }
       ]
     },
@@ -44,12 +44,12 @@
       "category": "society",
       "briefs": [
         {
-          "title": "Gilets jaunes et ultragauche veulent relancer la colère",
-          "summary": "Des messages appelant à des soulèvements et à un « Black Friday » du pillage circulent, les « gilets jaunes » et l'ultragauche voulant relancer le mouvement social."
+          "title": "Affaire Zecler : trois policiers condamnés",
+          "summary": "Six ans après l'agression du producteur Michel Zecler, trois policiers ont été condamnés à des peines de 1 à 2 ans de prison ferme."
         },
         {
-          "title": "Un cargo échoué sur le littoral des Landes",
-          "summary": "Un cargo s'est échoué sur la côte landaise, où une opération d'évacuation est en cours."
+          "title": "Pas-de-Calais : nouvelle vigilance orange crues",
+          "summary": "Après les inondations, un deuxième cours d'eau du Pas-de-Calais est placé en vigilance orange."
         }
       ]
     },
@@ -57,12 +57,12 @@
       "category": "technologyAndScience",
       "briefs": [
         {
-          "title": "Artex, l'IA chinoise qui a piraté la Commission européenne",
-          "summary": "Un logiciel d'intelligence artificielle chinois baptisé Artex aurait été utilisé pour pirater la Commission européenne."
+          "title": "Anthropic et un problème mathématique majeur",
+          "summary": "Un employé d'Anthropic affirme avoir résolu, avec l'aide de l'IA, le problème de mathématique présenté comme le plus important au monde."
         },
         {
-          "title": "La France intensifie son réarmement",
-          "summary": "Obus, fusils, missiles et drones : la France accélère son « effort de réarmement » en augmentant sa production d'équipements militaires."
+          "title": "Trump veut garder les centres de données aux États-Unis",
+          "summary": "Donald Trump s'oppose à l'implantation de centres de données américains à l'étranger et souhaite le retour du patron de Nvidia."
         }
       ]
     },
@@ -70,8 +70,12 @@
       "category": "sport",
       "briefs": [
         {
-          "title": "Ligue des nations : les Bleus face à l'Espagne",
-          "summary": "L'équipe de France de Zinédine Zidane affrontera l'Espagne, championne du monde, en quart de finale de la Ligue des nations."
+          "title": "Rugby : l'Angleterre surclasse les All Blacks",
+          "summary": "Lors du Championnat des nations, l'Angleterre a dominé la Nouvelle-Zélande tandis que le Japon a sombré, avant le choc France-Argentine."
+        },
+        {
+          "title": "Alcaraz en finale du Masters",
+          "summary": "Carlos Alcaraz a battu Ben Shelton et se qualifie pour sa première finale au Masters de tennis."
         }
       ]
     },
@@ -79,12 +83,12 @@
       "category": "culture",
       "briefs": [
         {
-          "title": "Miss France 2027 : les candidates dévoilées",
-          "summary": "Les portraits officiels des candidates à Miss France 2027 ont été publiés, en plein voyage de préparation et après le traditionnel test de culture générale."
+          "title": "GTA 6 bat un record de ventes",
+          "summary": "Le jeu vidéo GTA 6 a généré un record de 3,79 milliards de dollars de ventes en 24 heures."
         },
         {
-          "title": "Ciotti provoque la colère à l'Opéra de Nice",
-          "summary": "Des propos d'Éric Ciotti, selon qui « on ne paie pas un opéra pour faire son cirque », ont provoqué la colère des syndicats de l'Opéra de Nice."
+          "title": "Miss France 2027 se prépare",
+          "summary": "Les portraits officiels des candidates à Miss France 2027 ont été dévoilés, ainsi que le test de culture générale et le programme du voyage de préparation."
         }
       ]
     }
