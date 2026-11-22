@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "categories": [
     {
       "category": "politics",
       "briefs": [
         {
-          "title": "Présidentielle 2027 : Villepin candidat, Le Pen en tête",
-          "summary": "Dominique de Villepin se déclare candidat à la présidentielle 2027, tandis que Marine Le Pen reste en tête des sondages et que la primaire de la droite et du centre patine."
+          "title": "Présidentielle 2027 : la droite cherche sa ligne",
+          "summary": "David Lisnard tend la main à Retailleau, tourne le dos à Attal et exclut de gouverner avec le RN, tandis que les conditions fixées par Larcher font craindre une impasse pour la primaire."
         },
         {
-          "title": "Colère sociale : mobilisation en baisse à Paris",
-          "summary": "Le cortège parisien est parti de la place de la République sur fond de mobilisation en recul, alors qu'une enquête vise des policiers pour violences et agression sexuelle lors d'une manifestation."
+          "title": "Budget : vers une règle d'or ?",
+          "summary": "Emmanuel Macron réfléchirait à convoquer le Congrès pour instaurer une règle d'or budgétaire, un projet que la droite et le RN se disent prêts à soutenir."
         }
       ]
     },
@@ -18,12 +18,12 @@
       "category": "international",
       "briefs": [
         {
-          "title": "Moyen-Orient : le Qatar en médiateur à Téhéran",
-          "summary": "Une délégation qatarie s'est rendue à Téhéran pour des négociations entre l'Iran et les États-Unis dans le contexte de la guerre au Moyen-Orient."
+          "title": "COP31 : un constat d'échec",
+          "summary": "La conférence climat s'achève sur un projet de texte qui omet la sortie des énergies fossiles, soulevant la question d'un dépassement durable de l'objectif de +1,5 °C."
         },
         {
-          "title": "Attaque de drone contre un cargo russe",
-          "summary": "L'armée finlandaise a détecté une « attaque de drone » visant un cargo russe dans le golfe de Finlande."
+          "title": "Ukraine : l'Otan rassure la Pologne",
+          "summary": "L'Alliance promet de défendre « chaque pouce de territoire polonais », tandis que Kiev s'appuie sur un « dôme de guerre électronique » contre les drones russes."
         }
       ]
     },
@@ -31,12 +31,12 @@
       "category": "economy",
       "briefs": [
         {
-          "title": "Wall Street secouée par une chute historique de la tech",
-          "summary": "La chute historique des valeurs technologiques provoque la panique à Wall Street et fait craindre un krach boursier."
+          "title": "La grande détresse des agriculteurs",
+          "summary": "Solitude, hausse des prix et canicules pèsent sur les agriculteurs, alors que la crise du pouvoir d'achat se fait sentir jusque dans les fêtes foraines."
         },
         {
-          "title": "Aide aux commerces dégradés lors des émeutes",
-          "summary": "Un guichet d'aide allant jusqu'à 10 000 euros est ouvert pour les commerces dégradés lors des violences urbaines, dont les commerçants racontent le traumatisme."
+          "title": "Échec industriel pour la peluche Intermarché",
+          "summary": "La fabrication de la peluche du loup, issue de la publicité star de Noël 2025 de l'enseigne, a viré à l'échec industriel."
         }
       ]
     },
@@ -44,12 +44,12 @@
       "category": "society",
       "briefs": [
         {
-          "title": "Affaire Zecler : trois policiers condamnés",
-          "summary": "Six ans après l'agression du producteur Michel Zecler, trois policiers ont été condamnés à des peines de 1 à 2 ans de prison ferme."
+          "title": "Affaire Zecler : le récit des policiers démonté",
+          "summary": "Le procès a mis à nu le récit mensonger des policiers ; après le verdict, Marine Le Pen a répété que la France est « l'un des pays les moins racistes au monde »."
         },
         {
-          "title": "Pas-de-Calais : nouvelle vigilance orange crues",
-          "summary": "Après les inondations, un deuxième cours d'eau du Pas-de-Calais est placé en vigilance orange."
+          "title": "Sixième samedi de colère sociale",
+          "summary": "Syndicats, jeunesse et gilets jaunes ont de nouveau manifesté pour le sixième samedi consécutif, sur fond de débat sur l'usage des gaz lacrymogènes en France."
         }
       ]
     },
@@ -57,12 +57,12 @@
       "category": "technologyAndScience",
       "briefs": [
         {
-          "title": "Anthropic et un problème mathématique majeur",
-          "summary": "Un employé d'Anthropic affirme avoir résolu, avec l'aide de l'IA, le problème de mathématique présenté comme le plus important au monde."
+          "title": "Peut-on faire redescendre les températures ?",
+          "summary": "Une fois dépassé l'objectif de +1,5 °C de réchauffement, la question se pose de savoir si un retour en arrière des températures sera possible."
         },
         {
-          "title": "Trump veut garder les centres de données aux États-Unis",
-          "summary": "Donald Trump s'oppose à l'implantation de centres de données américains à l'étranger et souhaite le retour du patron de Nvidia."
+          "title": "Les photos d'IA divisent les familles",
+          "summary": "L'engouement des boomers pour les images générées par intelligence artificielle agace de nombreux parents."
         }
       ]
     },
@@ -70,12 +70,12 @@
       "category": "sport",
       "briefs": [
         {
-          "title": "Rugby : l'Angleterre surclasse les All Blacks",
-          "summary": "Lors du Championnat des nations, l'Angleterre a dominé la Nouvelle-Zélande tandis que le Japon a sombré, avant le choc France-Argentine."
+          "title": "Rugby : les Bleus en finale face aux Springboks",
+          "summary": "Le XV de France, vainqueur de l'Argentine, affrontera l'Afrique du Sud en finale du Championnat des nations, avec le retour de Thomas Ramos."
         },
         {
-          "title": "Alcaraz en finale du Masters",
-          "summary": "Carlos Alcaraz a battu Ben Shelton et se qualifie pour sa première finale au Masters de tennis."
+          "title": "Ligue 1 : Paris et Lyon s'imposent",
+          "summary": "Le PSG a gagné à Nice mais s'inquiète pour le genou de Désiré Doué, tandis que Lyon s'est imposé à Lille pour les débuts de Carlos Vicens."
         }
       ]
     },
@@ -83,12 +83,12 @@
       "category": "culture",
       "briefs": [
         {
-          "title": "GTA 6 bat un record de ventes",
-          "summary": "Le jeu vidéo GTA 6 a généré un record de 3,79 milliards de dollars de ventes en 24 heures."
+          "title": "Biolay contre Pierre Perret",
+          "summary": "Benjamin Biolay a vivement critiqué Pierre Perret et sa chanson visant LFI, estimant que « la vieillesse n'est pas une excuse »."
         },
         {
           "title": "Miss France 2027 se prépare",
-          "summary": "Les portraits officiels des candidates à Miss France 2027 ont été dévoilés, ainsi que le test de culture générale et le programme du voyage de préparation."
+          "summary": "Les portraits officiels des candidates ont été dévoilés, ainsi que le test de culture générale et le programme du voyage de préparation."
         }
       ]
     }
