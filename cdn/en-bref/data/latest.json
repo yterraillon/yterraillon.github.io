@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "categories": [
     {
       "category": "politics",
       "briefs": [
         {
-          "title": "Présidentielle 2027 : la droite cherche sa ligne",
-          "summary": "David Lisnard tend la main à Retailleau, tourne le dos à Attal et exclut de gouverner avec le RN, tandis que les conditions fixées par Larcher font craindre une impasse pour la primaire."
+          "title": "Présidentielle 2027 : Génération.s rallie Mélenchon",
+          "summary": "Le parti fondé par Benoît Hamon soutient la candidature de Jean-Luc Mélenchon et conclut un accord législatif avec La France insoumise."
         },
         {
-          "title": "Budget : vers une règle d'or ?",
-          "summary": "Emmanuel Macron réfléchirait à convoquer le Congrès pour instaurer une règle d'or budgétaire, un projet que la droite et le RN se disent prêts à soutenir."
+          "title": "La dynamique David Lisnard en question",
+          "summary": "David Lisnard double Édouard Philippe dans un sondage où Marine Le Pen perd jusqu'à 5 points, tandis que la réunion sur une primaire avec Retailleau et Attal est reportée."
         }
       ]
     },
@@ -18,12 +18,12 @@
       "category": "international",
       "briefs": [
         {
-          "title": "COP31 : un constat d'échec",
-          "summary": "La conférence climat s'achève sur un projet de texte qui omet la sortie des énergies fossiles, soulevant la question d'un dépassement durable de l'objectif de +1,5 °C."
+          "title": "Échec de la COP31 à Antalya",
+          "summary": "Faute d'accord sur les énergies fossiles, la COP31 s'achève sur un échec qui suscite la colère et interroge la presse internationale sur l'avenir des sommets climatiques."
         },
         {
-          "title": "Ukraine : l'Otan rassure la Pologne",
-          "summary": "L'Alliance promet de défendre « chaque pouce de territoire polonais », tandis que Kiev s'appuie sur un « dôme de guerre électronique » contre les drones russes."
+          "title": "Guerre en Ukraine : l'adhésion à l'Otan divise",
+          "summary": "Tous les alliés ne sont pas d'accord pour intégrer l'Ukraine, dont la population affronte un nouvel hiver sans électricité, après une attaque de Kiev contre des bateaux russes en Libye."
         }
       ]
     },
@@ -31,12 +31,12 @@
       "category": "economy",
       "briefs": [
         {
-          "title": "La grande détresse des agriculteurs",
-          "summary": "Solitude, hausse des prix et canicules pèsent sur les agriculteurs, alors que la crise du pouvoir d'achat se fait sentir jusque dans les fêtes foraines."
+          "title": "Jensen Huang réintégré à la tête de Nvidia",
+          "summary": "Deux semaines après sa démission liée à une liaison avec une femme en contact avec Pékin, Jensen Huang redevient patron de Nvidia, Donald Trump affirmant avoir parlé au conseil d'administration."
         },
         {
-          "title": "Échec industriel pour la peluche Intermarché",
-          "summary": "La fabrication de la peluche du loup, issue de la publicité star de Noël 2025 de l'enseigne, a viré à l'échec industriel."
+          "title": "Choose France : près de 15 milliards d'euros",
+          "summary": "Le deuxième sommet Choose France consacré aux investisseurs français a permis d'annoncer près de 15 milliards d'euros d'investissements."
         }
       ]
     },
@@ -44,12 +44,12 @@
       "category": "society",
       "briefs": [
         {
-          "title": "Affaire Zecler : le récit des policiers démonté",
-          "summary": "Le procès a mis à nu le récit mensonger des policiers ; après le verdict, Marine Le Pen a répété que la France est « l'un des pays les moins racistes au monde »."
+          "title": "Déraillement en Normandie : trois interpellations",
+          "summary": "Un père et ses deux fils ont été interpellés deux mois après le grave accident de train survenu en Normandie."
         },
         {
-          "title": "Sixième samedi de colère sociale",
-          "summary": "Syndicats, jeunesse et gilets jaunes ont de nouveau manifesté pour le sixième samedi consécutif, sur fond de débat sur l'usage des gaz lacrymogènes en France."
+          "title": "Lycéens : 98 élèves blessés en une semaine",
+          "summary": "La mobilisation lycéenne a entraîné peu de blocages d'établissements la semaine dernière, mais davantage de violences, avec 98 élèves blessés."
         }
       ]
     },
@@ -57,12 +57,8 @@
       "category": "technologyAndScience",
       "briefs": [
         {
-          "title": "Peut-on faire redescendre les températures ?",
-          "summary": "Une fois dépassé l'objectif de +1,5 °C de réchauffement, la question se pose de savoir si un retour en arrière des températures sera possible."
-        },
-        {
-          "title": "Les photos d'IA divisent les familles",
-          "summary": "L'engouement des boomers pour les images générées par intelligence artificielle agace de nombreux parents."
+          "title": "Un vaccin sur-mesure contre le mélanome",
+          "summary": "Un vaccin thérapeutique personnalisé permet de réduire le risque de rechute chez les patients atteints de mélanome."
         }
       ]
     },
@@ -70,12 +66,12 @@
       "category": "sport",
       "briefs": [
         {
-          "title": "Rugby : les Bleus en finale face aux Springboks",
-          "summary": "Le XV de France, vainqueur de l'Argentine, affrontera l'Afrique du Sud en finale du Championnat des nations, avec le retour de Thomas Ramos."
+          "title": "OM - Le Mans : l'effondrement marseillais",
+          "summary": "L'OM s'est totalement effondré en fin de match face au Mans, un revers attribué à « un problème mental »."
         },
         {
-          "title": "Ligue 1 : Paris et Lyon s'imposent",
-          "summary": "Le PSG a gagné à Nice mais s'inquiète pour le genou de Désiré Doué, tandis que Lyon s'est imposé à Lille pour les débuts de Carlos Vicens."
+          "title": "Blessure au genou pour Désiré Doué",
+          "summary": "La blessure au genou de Doué soulève la question de son délai de retour, au regard du parcours d'autres grands joueurs touchés de la même façon."
         }
       ]
     },
@@ -83,12 +79,8 @@
       "category": "culture",
       "briefs": [
         {
-          "title": "Biolay contre Pierre Perret",
-          "summary": "Benjamin Biolay a vivement critiqué Pierre Perret et sa chanson visant LFI, estimant que « la vieillesse n'est pas une excuse »."
-        },
-        {
-          "title": "Miss France 2027 se prépare",
-          "summary": "Les portraits officiels des candidates ont été dévoilés, ainsi que le test de culture générale et le programme du voyage de préparation."
+          "title": "Miss France 2027 : les candidates dévoilées",
+          "summary": "Les portraits officiels des candidates à Miss France 2027 ont été publiés, ainsi que le test de culture générale et le programme du voyage de préparation."
         }
       ]
     }
