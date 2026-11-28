@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "categories": [
     {
       "category": "politics",
       "briefs": [
         {
-          "title": "Le Pen maintient sa confiance à Bardella",
-          "summary": "Marine Le Pen réitère son soutien à Jordan Bardella malgré de nouvelles révélations sur des écrits antisémites de jeunesse attribués à ce dernier, en pleine campagne pour la présidentielle 2027."
+          "title": "Présidentielle 2027 : David Lisnard engrange les ralliements",
+          "summary": "Le candidat David Lisnard fait une percée chez les parlementaires et dévoile son programme axé sur la sécurité et l'immigration, tandis qu'Attal exclut tout retrait de sa candidature."
         },
         {
-          "title": "David Lisnard engrange les ralliements à droite",
-          "summary": "Le candidat à la présidentielle dévoile son programme et gagne des soutiens parlementaires LR, tandis que Laurent Wauquiez redoute une « division » et que Gérald Darmanin prend ses distances."
+          "title": "Le Sénat vote une taxe sur les détenus",
+          "summary": "Les sénateurs ont adopté une mesure prévoyant de faire payer aux détenus cinq euros par jour passé en prison."
         }
       ]
     },
@@ -18,12 +18,12 @@
       "category": "international",
       "briefs": [
         {
-          "title": "Ukraine : Kiev veut davantage de Mirage 2000",
-          "summary": "L'Ukraine souhaite obtenir plus de Mirage 2000, jugés polyvalents, alors que la France apparaît loin d'être le pays qui dépense le plus pour aider Kiev."
+          "title": "Ukraine : Poutine exhibe un nouveau sous-marin nucléaire",
+          "summary": "Le président russe a présenté un nouveau sous-marin nucléaire, Volodymyr Zelensky le comparant en retour à Hitler."
         },
         {
-          "title": "Naufrage d'un pétrolier au large d'Ibiza",
-          "summary": "En Espagne, le naufrage d'un pétrolier au large d'Ibiza a fait un mort et provoqué une pollution, tandis que des opérations de remorquage sont engagées."
+          "title": "Afghanistan : dix enfants tués près d'une école",
+          "summary": "Une explosion survenue près d'une école a fait dix morts parmi des enfants et une centaine de blessés."
         }
       ]
     },
@@ -31,12 +31,12 @@
       "category": "economy",
       "briefs": [
         {
-          "title": "La France entre en légère récession",
-          "summary": "Le PIB français a reculé au troisième trimestre, faisant entrer le pays dans une récession qualifiée de légère."
+          "title": "Préavis de grève dans les aéroports parisiens à Noël",
+          "summary": "Un préavis de grève a été déposé dans les aéroports de Paris pour le début des vacances de fin d'année."
         },
         {
-          "title": "Black Friday : la consommation en question",
-          "summary": "À l'occasion du Black Friday, le tri de ses affaires est présenté comme un moyen de reprendre le contrôle sur sa consommation, tandis que l'idée de réductions sur l'énergie est examinée."
+          "title": "Jura : une erreur francs-euros fait exploser la taxe foncière",
+          "summary": "Dans le Jura, l'administration fiscale a confondu francs et euros, provoquant une hausse spectaculaire de la taxe foncière de contribuables."
         }
       ]
     },
@@ -44,12 +44,12 @@
       "category": "society",
       "briefs": [
         {
-          "title": "Violences lors d'OM-Levski Sofia",
-          "summary": "Le parquet de Marseille ouvre deux enquêtes après des affrontements au Vélodrome et des saluts nazis ; Emmanuel Macron condamne fermement les violences contre des supporters bulgares."
+          "title": "Violents heurts à Biarritz autour du « Canon français »",
+          "summary": "Des manifestations contre un banquet du « Canon français » ont dégénéré à Biarritz, faisant au moins huit policiers blessés, dont un par arme blanche."
         },
         {
-          "title": "Déraillement d'un TER en Normandie",
-          "summary": "Un jeune déficient intellectuel a été mis en examen pour « blessures involontaires » après le déraillement, qui soulève la question du vol de rails pour la SNCF."
+          "title": "Nouvelle mobilisation contre les violences faites aux femmes",
+          "summary": "Des associations appellent à un « raz-de-marée féministe » lors d'une nouvelle journée de mobilisation ce samedi."
         }
       ]
     },
@@ -57,12 +57,12 @@
       "category": "technologyAndScience",
       "briefs": [
         {
-          "title": "Centres antipoison saturés à cause de l'IA",
-          "summary": "Depuis cet été, les centres antipoison reçoivent de nombreux appels de personnes inquiètes après des réponses d'intelligences artificielles, comme la présence de cyanure dans un trognon de pomme."
+          "title": "Telegram alerte sur un risque de piratage des iPhone",
+          "summary": "La messagerie Telegram avertit les utilisateurs d'iPhone contre un risque de piratage massif."
         },
         {
-          "title": "SpaceX et le risque de saturation orbitale",
-          "summary": "Le projet d'envoyer un million de satellites dans l'espace par SpaceX pose la question d'une possible saturation de l'orbite terrestre."
+          "title": "Elon Musk promet des actions SpaceX aux enfants américains",
+          "summary": "Le patron de SpaceX a promis d'offrir deux actions de son entreprise spatiale à « chaque enfant en Amérique »."
         }
       ]
     },
@@ -70,12 +70,12 @@
       "category": "sport",
       "briefs": [
         {
-          "title": "Marc Marquez annonce sa retraite",
-          "summary": "À la surprise générale, le pilote espagnol Marc Marquez annonce qu'il mettra fin à sa carrière à l'issue du week-end de Grand Prix."
+          "title": "Mannarino et Moutet critiqués pour un tournoi en Russie",
+          "summary": "Les tennismen français Adrian Mannarino et Corentin Moutet sont vivement critiqués pour avoir participé à un tournoi organisé en Russie."
         },
         {
-          "title": "Biathlon : course mitigée pour les Françaises",
-          "summary": "Jeanmonnot et Braisaz-Bouchet ont commis des fautes au tir, tandis que Michelon et Bened ont visé juste lors d'une course suivie en direct."
+          "title": "MotoGP : la moto de Marc Marquez prend feu",
+          "summary": "La moto de Marc Marquez s'est embrasée sur la grille de départ lors de son dernier week-end de course."
         }
       ]
     },
@@ -83,12 +83,12 @@
       "category": "culture",
       "briefs": [
         {
-          "title": "Affaire Depardieu : Charlotte Arnould attend le procès",
-          "summary": "La plaignante Charlotte Arnould se dit prête dans l'attente d'un procès qualifié d'« historique » contre Gérard Depardieu."
+          "title": "Miss France 2027 : les portraits officiels dévoilés",
+          "summary": "Les portraits officiels des candidates à Miss France 2027 ont été publiés, ainsi que le test de culture générale du concours."
         },
         {
-          "title": "Miss France 2027 : les candidates dévoilées",
-          "summary": "Les portraits officiels des candidates à Miss France 2027 ont été dévoilés, ainsi que le test de culture générale auquel elles sont soumises."
+          "title": "Jamel Debbouze annonce son retour sur scène",
+          "summary": "L'humoriste a laissé entendre qu'il reviendrait sur scène « dans pas très longtemps »."
         }
       ]
     }
